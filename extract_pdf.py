@@ -1,7 +1,7 @@
 from pathlib import Path
 from pypdf import PdfReader
 
-pdf_path = Path(r"c:\Users\ganku\OneDrive\Desktop\Slides ce2 first Sem\Combined_Slides_-_Dr_Nofong_-_2019^programming_with_java.pdf")
+pdf_path = Path(r"C:\Users\mikeq\Documents\Combined_Slides_-_Dr_Nofong_-_2019^programming_with_java.pdf")
 out_path = Path("pdf_extracted.txt")
 
 if not pdf_path.exists():

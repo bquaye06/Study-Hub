@@ -121,6 +121,56 @@ function countVowels(text) {
   return count;
 }
 
+function normalizeJavaSnippet(source, sampleInputKeys = []) {
+  let out = String(source || '');
+
+  // Remove common wrapper boilerplate when users paste full Java programs.
+  out = out.replace(/public\s+class\s+[A-Za-z_$][A-Za-z0-9_$]*\s*\{/g, '');
+  out = out.replace(/class\s+[A-Za-z_$][A-Za-z0-9_$]*\s*\{/g, '');
+  out = out.replace(/public\s+static\s+void\s+main\s*\(\s*String\s*\[\]\s*[A-Za-z_$][A-Za-z0-9_$]*\s*\)\s*\{/g, '');
+  out = out.replace(/public\s+static\s+void\s+main\s*\(\s*String\s*\.\.\.\s*[A-Za-z_$][A-Za-z0-9_$]*\s*\)\s*\{/g, '');
+
+  // Remove trailing braces that typically close class/main wrappers.
+  out = out.replace(/^\s*}\s*$/gm, '');
+
+  // Normalize Java-style prints for sandbox capture.
+  out = out.replace(/System\.out\.println\s*\(/g, 'console.log(');
+  out = out.replace(/System\.out\.print\s*\(/g, 'console.log(');
+
+  // Convert common Java declarations to JS declarations.
+  out = out.replace(/\b(?:int|double|float|long|short|byte|boolean|char|String)\s*\[\]\s+([A-Za-z_$][A-Za-z0-9_$]*)\s*=/g, 'let $1 =');
+  out = out.replace(/\b(?:int|double|float|long|short|byte|boolean|char|String)\s+([A-Za-z_$][A-Za-z0-9_$]*)\s*=/g, 'let $1 =');
+  out = out.replace(/\b(?:int|double|float|long|short|byte|boolean|char|String)\s*\[\]\s+([A-Za-z_$][A-Za-z0-9_$]*)\s*;/g, 'let $1;');
+  out = out.replace(/\b(?:int|double|float|long|short|byte|boolean|char|String)\s+([A-Za-z_$][A-Za-z0-9_$]*)\s*;/g, 'let $1;');
+
+  // Convert Java enhanced-for loop to JS for...of.
+  out = out.replace(/for\s*\(\s*(?:int|double|float|long|short|byte|boolean|char|String)\s+([A-Za-z_$][A-Za-z0-9_$]*)\s*:\s*([^\)]+)\)/g, 'for (const $1 of $2)');
+
+  // Convert Java for-loop index declaration.
+  out = out.replace(/for\s*\(\s*int\s+([A-Za-z_$][A-Za-z0-9_$]*)\s*=/g, 'for (let $1 =');
+
+  // Convert common Java String helper usage.
+  out = out.replace(/new\s+StringBuilder\(([^\)]+)\)\.reverse\(\)\.toString\(\)/g, 'String($1).split("").reverse().join("")');
+  out = out.replace(/Character\.toLowerCase\s*\(([^\)]+)\)/g, 'String($1).toLowerCase()');
+  out = out.replace(/([A-Za-z_$][A-Za-z0-9_$.]*)\.length\s*\(\s*\)/g, '$1.length');
+  out = out.replace(/Integer\.parseInt\s*\(/g, 'Number.parseInt(');
+  out = out.replace(/Double\.parseDouble\s*\(/g, 'Number.parseFloat(');
+
+  // Convert simple Java equals() comparisons to strict equality.
+  out = out.replace(/([A-Za-z_$][A-Za-z0-9_$.]*)\.equalsIgnoreCase\(([^\)]+)\)/g, '(String($1).toLowerCase() === String($2).toLowerCase())');
+  out = out.replace(/([A-Za-z_$][A-Za-z0-9_$.]*)\.equals\(([^\)]+)\)/g, '($1 === $2)');
+
+  // Sample inputs are injected as function parameters; avoid redeclaring them.
+  for (const key of sampleInputKeys) {
+    if (!/^[A-Za-z_$][A-Za-z0-9_$]*$/.test(key)) continue;
+    const escaped = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const redeclarePattern = new RegExp(`\\blet\\s+${escaped}\\s*=`, 'g');
+    out = out.replace(redeclarePattern, `${key} =`);
+  }
+
+  return out;
+}
+
 function buildCodeLabQuestions() {
   const rng = createSeededRng(getRotationSeed());
 
@@ -152,57 +202,57 @@ function buildCodeLabQuestions() {
   return [
     {
       id: 'max-three',
-      title: 'Maximum of Three Test Scores (Math.max)',
-      prompt: 'Write code to find the maximum of three test scores using Math.max. Store your final answer in maxScore.',
+      title: 'Java: Maximum of Three Test Scores (Math.max)',
+      prompt: 'In Java, write code to find the maximum of three test scores using Math.max. Store your final answer in maxScore.',
       sampleInput: { score1, score2, score3 },
       resultVar: 'maxScore',
       expected: Math.max(score1, score2, score3),
-      starter: 'const maxScore = Math.max(score1, score2, score3);'
+      starter: 'int maxScore = Math.max(score1, Math.max(score2, score3));'
     },
     {
       id: 'sum-array',
-      title: 'Calculate Sum of an Array',
-      prompt: 'Write code to calculate the sum of all numbers in the given array. Store your final answer in sum.',
+      title: 'Java: Calculate Sum of an Array',
+      prompt: 'In Java, write code to calculate the sum of all numbers in the given array. Store your final answer in sum.',
       sampleInput: { numbers },
       resultVar: 'sum',
       expected: numbersSum,
-      starter: 'let sum = 0;\nfor (const n of numbers) {\n  sum += n;\n}'
+      starter: 'int sum = 0;\nfor (int n : numbers) {\n  sum += n;\n}'
     },
     {
       id: 'min-three',
-      title: 'Minimum of Three Integers (Math.min)',
-      prompt: 'Write code to find the minimum of three integers using Math.min. Store your final answer in minValue.',
+      title: 'Java: Minimum of Three Integers (Math.min)',
+      prompt: 'In Java, write code to find the minimum of three integers using Math.min. Store your final answer in minValue.',
       sampleInput: { a, b, c },
       resultVar: 'minValue',
       expected: Math.min(a, b, c),
-      starter: 'const minValue = Math.min(a, b, c);'
+      starter: 'int minValue = Math.min(a, Math.min(b, c));'
     },
     {
       id: 'even-odd',
-      title: 'Check if Number Is Even or Odd',
-      prompt: 'Write code that checks if n is even or odd. Store "even" or "odd" in parity.',
+      title: 'Java: Check if Number Is Even or Odd',
+      prompt: 'In Java, write code that checks if n is even or odd. Store "even" or "odd" in parity.',
       sampleInput: { n },
       resultVar: 'parity',
       expected: n % 2 === 0 ? 'even' : 'odd',
-      starter: 'const parity = n % 2 === 0 ? "even" : "odd";'
+      starter: 'String parity = (n % 2 == 0) ? "even" : "odd";'
     },
     {
       id: 'swap-no-temp',
-      title: 'Swap Two Variables Without Third Variable',
-      prompt: 'Swap x and y without using a third variable. Then store the swapped order as a string in swappedPair using `${x},${y}`.',
+      title: 'Java: Swap Two Variables Without Third Variable',
+      prompt: 'In Java, swap x and y without using a third variable. Then store the swapped order as a string in swappedPair using x + "," + y.',
       sampleInput: { x, y },
       resultVar: 'swappedPair',
       expected: `${y},${x}`,
-      starter: 'x = x + y;\ny = x - y;\nx = x - y;\nconst swappedPair = `${x},${y}`;'
+      starter: 'x = x + y;\ny = x - y;\nx = x - y;\nString swappedPair = x + "," + y;'
     },
     {
       id: 'count-vowels',
-      title: 'Count Number of Vowels in a String',
-      prompt: 'Write code to count vowels (a, e, i, o, u) in the provided text. Store your final answer in vowelCount.',
+      title: 'Java: Count Number of Vowels in a String',
+      prompt: 'In Java, write code to count vowels (a, e, i, o, u) in the provided text. Store your final answer in vowelCount.',
       sampleInput: { text },
       resultVar: 'vowelCount',
       expected: countVowels(text),
-      starter: 'let vowelCount = 0;\nfor (const ch of text.toLowerCase()) {\n  if ("aeiou".includes(ch)) {\n    vowelCount += 1;\n  }\n}'
+      starter: 'int vowelCount = 0;\nfor (int i = 0; i < text.length(); i++) {\n  char ch = Character.toLowerCase(text.charAt(i));\n  if ("aeiou".indexOf(ch) >= 0) {\n    vowelCount++;\n  }\n}'
     }
   ];
 }
@@ -250,10 +300,35 @@ function runSnippetInWorker(snippet, sampleInput, resultVar, timeoutMs = 1200) {
         const resultVar = String(data.resultVar || '').trim();
         const keys = Object.keys(sampleInput);
         const values = keys.map(function (k) { return sampleInput[k]; });
-        const wrapped = '\"use strict\";\\n' + snippet + '\\n; if (typeof ' + resultVar + ' === \"undefined\") { throw new Error(\"Define result in variable: ' + resultVar + '\"); } return ' + resultVar + ';';
+        const wrapped =
+          '\"use strict\";\\n' +
+          'const __logs = [];\\n' +
+          'const __baseConsole = globalThis.console || {};\\n' +
+          'const console = Object.assign({}, __baseConsole, {\\n' +
+          '  log: function () {\\n' +
+          '    const args = Array.from(arguments);\\n' +
+          '    __logs.push(args.length <= 1 ? args[0] : args);\\n' +
+          '  }\\n' +
+          '});\\n' +
+          snippet +
+          '\\n; const __candidate = (typeof ' + resultVar + ' !== \"undefined\") ? ' + resultVar + ' : (typeof __result !== \"undefined\" ? __result : (typeof result !== \"undefined\" ? result : undefined));\\n' +
+          'if (typeof __candidate !== \"undefined\") { return { ok: true, result: __candidate, source: \"variable\" }; }\\n' +
+          'if (__logs.length > 0) { return { ok: true, result: __logs[__logs.length - 1], source: \"console\" }; }\\n' +
+          'return { ok: false, error: \"No result captured. Set ' + resultVar + ', set __result/result, return a value, or print with System.out.println(...).\" };';
         const fn = new Function(...keys, wrapped);
         const result = fn(...values);
-        self.postMessage({ ok: true, result: result });
+
+        if (result && typeof result === 'object' && Object.prototype.hasOwnProperty.call(result, 'ok')) {
+          self.postMessage(result);
+          return;
+        }
+
+        if (typeof result !== 'undefined') {
+          self.postMessage({ ok: true, result: result, source: 'return' });
+          return;
+        }
+
+        self.postMessage({ ok: false, error: 'No result captured. Set ' + resultVar + ', set __result/result, return a value, or print with System.out.println(...).' });
       } catch (error) {
         self.postMessage({ ok: false, error: error && error.message ? error.message : String(error) });
       }
@@ -288,7 +363,8 @@ function runSnippetInWorker(snippet, sampleInput, resultVar, timeoutMs = 1200) {
       stop({ ok: false, error: event.message || 'Execution error.' });
     };
 
-    worker.postMessage({ snippet, sampleInput, resultVar: safeVar });
+    const normalizedSnippet = normalizeJavaSnippet(snippet, Object.keys(sampleInput || {}));
+    worker.postMessage({ snippet: normalizedSnippet, sampleInput, resultVar: safeVar });
   });
 }
 
@@ -296,7 +372,7 @@ async function gradeCodeLabQuestion(question) {
   const snippet = readCodeLabAnswer(question.id);
   if (!snippet.trim()) {
     codeLabStatuses[question.id] = false;
-    writeCodeLabStatus(question.id, 'Incorrect: please enter a code snippet first.', 'incorrect');
+    writeCodeLabStatus(question.id, 'Incorrect: please enter a Java snippet first.', 'incorrect');
     updateCodeLabSummary();
     return false;
   }
@@ -304,7 +380,11 @@ async function gradeCodeLabQuestion(question) {
   const execution = await runSnippetInWorker(snippet, question.sampleInput, question.resultVar);
   if (!execution || !execution.ok) {
     codeLabStatuses[question.id] = false;
-    writeCodeLabStatus(question.id, `Incorrect: ${execution && execution.error ? execution.error : 'Unable to run code.'}`, 'incorrect');
+    writeCodeLabStatus(
+      question.id,
+      `Incorrect: ${execution && execution.error ? execution.error : 'Unable to run code.'} Use Java-style statements only (no package/import lines).`,
+      'incorrect'
+    );
     updateCodeLabSummary();
     return false;
   }
@@ -333,7 +413,7 @@ function buildCodeLabCard(question, index) {
       <p class="code-lab-meta">${escapeHtml(question.prompt)}</p>
       <div class="code-lab-io">
         <p><strong>Sample Input:</strong> <code>${escapeHtml(formatInputForDisplay(question.sampleInput))}</code></p>
-        <p><strong>Required result variable:</strong> <code>${escapeHtml(question.resultVar)}</code></p>
+        <p><strong>Java answer style:</strong> write Java-style logic. Final output can be assigned to <code>${escapeHtml(question.resultVar)}</code>, <code>__result</code>, <code>result</code>, or printed using <code>System.out.println(...)</code>.</p>
         <p><strong>Expected Output:</strong> <code>${escapeHtml(JSON.stringify(question.expected))}</code></p>
       </div>
       <textarea
@@ -765,6 +845,10 @@ function loadRevisedState() {
 }
 
 function buildQuizQuestionView(item, displayNumber, totalQuestions) {
+  const isLocked = currentQuiz && Array.isArray(currentQuiz.lockedAnswers)
+    ? currentQuiz.lockedAnswers[currentQuiz.index] === true
+    : false;
+
   const options = shuffleArray([
     item.a,
     ...shuffleArray(QUESTIONS.filter((q) => q.a !== item.a)).slice(0, 3).map((q) => q.a)
@@ -773,9 +857,10 @@ function buildQuizQuestionView(item, displayNumber, totalQuestions) {
   const optionMarkup = options
     .map((opt, idx) => {
       const checked = currentQuiz.answers[currentQuiz.index] === opt ? 'checked' : '';
+      const disabled = isLocked ? 'disabled' : '';
       return `
         <label class="quiz-option">
-          <input type="radio" name="quizOption" value="${idx}" ${checked}>
+          <input type="radio" name="quizOption" value="${idx}" ${checked} ${disabled}>
           <span>${opt}</span>
         </label>
       `;
@@ -826,12 +911,36 @@ function renderQuizStep() {
   const item = currentQuiz.items[currentQuiz.index];
   quizQuestion.innerHTML = buildQuizQuestionView(item, currentQuiz.index + 1, currentQuiz.items.length);
 
+  const applySelectedState = () => {
+    const labels = Array.from(quizQuestion.querySelectorAll('.quiz-option'));
+    for (const label of labels) {
+      const input = label.querySelector('input[name="quizOption"]');
+      if (input && input.checked) {
+        label.classList.add('selected');
+      } else {
+        label.classList.remove('selected');
+      }
+    }
+  };
+
   const radios = Array.from(quizQuestion.querySelectorAll('input[name="quizOption"]'));
+  applySelectedState();
   for (const radio of radios) {
     radio.addEventListener('change', () => {
+      if (currentQuiz.lockedAnswers[currentQuiz.index]) {
+        return;
+      }
+
       const optionIndex = Number(radio.value);
       const chosen = currentQuiz.optionMap[currentQuiz.index][optionIndex];
       currentQuiz.answers[currentQuiz.index] = chosen;
+      currentQuiz.lockedAnswers[currentQuiz.index] = true;
+
+      for (const input of radios) {
+        input.disabled = true;
+      }
+
+      applySelectedState();
     });
   }
 }
@@ -936,6 +1045,7 @@ function beginQuizWithItems(overrideItems) {
     items: selected,
     index: 0,
     answers: Array(count).fill(null),
+    lockedAnswers: Array(count).fill(false),
     optionMap: {},
     endsAt: Date.now() + minutes * 60 * 1000,
     mode: baseItems !== QUESTIONS ? 'retry' : 'normal'

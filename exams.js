@@ -30,6 +30,7 @@
     { id: 'exam-pdf-objectives', title: 'PDF Objectives' },
     { id: 'exam-pdf-short', title: 'PDF Short Answers' },
     { id: 'exam-pdf-code', title: 'PDF Code Writing' },
+    { id: 'exam-pdf-true-false', title: 'PDF True/False' },
     { id: 'exam-practice-basics', title: 'Practice Basics' },
     { id: 'exam-practice-arithmetic', title: 'Practice Arithmetic' },
     { id: 'exam-practice-control', title: 'Practice Control Flow' },
@@ -129,7 +130,20 @@
     { sectionId: 'exam-pdf-code', q: 'Correct Mary’s multidimensional array code and identify the errors.', a: 'Use String[][] dimArray = new String[3][2]; and assign names/marks with valid indices.' },
     { sectionId: 'exam-pdf-code', q: 'Write a for-loop that prints only the marks of each student from the array.', a: 'for (int i = 0; i < dimArray.length; i++) System.out.println(dimArray[i][1]);' },
     { sectionId: 'exam-pdf-code', q: 'Write a loop that computes the sum of all numbers between 2 and 100 that are multiples of 5 or 7.', a: 'Use a for-loop from 2 to 100 with an if condition checking i % 5 == 0 || i % 7 == 0.' },
-    { sectionId: 'exam-pdf-code', q: 'Write a conditional statement with three branches that sets y to 2, -3, or 0 depending on x.', a: 'if (x > 0) y = 2; else if (x < 0) y = -3; else y = 0;' }
+    { sectionId: 'exam-pdf-code', q: 'Write a conditional statement with three branches that sets y to 2, -3, or 0 depending on x.', a: 'if (x > 0) y = 2; else if (x < 0) y = -3; else y = 0;' },
+
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: The Java main method return type is void.', a: 'true' },
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: Java is platform-independent because compiled bytecode runs on the JVM.', a: 'true' },
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: String is a primitive data type in Java.', a: 'false' },
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: The default value of an uninitialized boolean variable is false.', a: 'true' },
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: Integer division 5 / 2 produces 2.5 in Java.', a: 'false' },
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: The finally block executes only when an exception is thrown.', a: 'false' },
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: The keyword extends is used for class inheritance in Java.', a: 'true' },
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: Omitting break in a switch case can cause fall-through.', a: 'true' },
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: Scanner is commonly used to read user input in Java.', a: 'true' },
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: Comparing two strings with == always checks content equality in Java.', a: 'false' },
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: The remainder of 10 % 3 is 1.', a: 'true' },
+    { sectionId: 'exam-pdf-true-false', q: 'True or False: Dividing an int by zero throws a runtime exception in Java.', a: 'true' }
   ];
 
   function makeBasicsPractice() {
@@ -470,92 +484,92 @@
       {
         sectionId: 'exam-practice-fill-code',
         type: 'code',
-        q: 'Given n = 6, write code to compute factorial of n using a loop. Store final result in fact.',
+        q: 'In Java, given n = 6, write code to compute factorial of n using a loop. Store final result in fact.',
         sampleInput: { n: 6 },
         resultVar: 'fact',
         expected: 720,
-        a: 'let fact = 1;\nfor (let i = 1; i <= n; i++) {\n  fact *= i;\n}'
+        a: 'int fact = 1;\nfor (int i = 1; i <= n; i++) {\n  fact *= i;\n}'
       },
       {
         sectionId: 'exam-practice-fill-code',
         type: 'code',
-        q: 'Given arr = [3, 9, 2, 11, 5], write code to count elements greater than 5. Store final count in count.',
+        q: 'In Java, given arr = [3, 9, 2, 11, 5], write code to count elements greater than 5. Store final count in count.',
         sampleInput: { arr: [3, 9, 2, 11, 5] },
         resultVar: 'count',
         expected: 2,
-        a: 'let count = 0;\nfor (const x of arr) {\n  if (x > 5) count += 1;\n}'
+        a: 'int count = 0;\nfor (int x : arr) {\n  if (x > 5) count++;\n}'
       },
       {
         sectionId: 'exam-practice-fill-code',
         type: 'code',
-        q: 'Given text = "level", write code to check whether text is a palindrome. Store result in isPalindrome.',
+        q: 'In Java, given text = "level", write code to check whether text is a palindrome. Store result in isPalindrome.',
         sampleInput: { text: 'level' },
         resultVar: 'isPalindrome',
         expected: true,
-        a: 'const reversed = text.split("").reverse().join("");\nconst isPalindrome = text === reversed;'
+        a: 'String reversed = new StringBuilder(text).reverse().toString();\nboolean isPalindrome = text.equals(reversed);'
       },
       {
         sectionId: 'exam-practice-fill-code',
         type: 'code',
-        q: 'Given score = 74, write code to assign grade using if/else: A (>=90), B (>=80), C (>=70), else D. Store in grade.',
+        q: 'In Java, given score = 74, write code to assign grade using if/else: A (>=90), B (>=80), C (>=70), else D. Store in grade.',
         sampleInput: { score: 74 },
         resultVar: 'grade',
         expected: 'C',
-        a: 'let grade;\nif (score >= 90) grade = "A";\nelse if (score >= 80) grade = "B";\nelse if (score >= 70) grade = "C";\nelse grade = "D";'
+        a: 'String grade;\nif (score >= 90) grade = "A";\nelse if (score >= 80) grade = "B";\nelse if (score >= 70) grade = "C";\nelse grade = "D";'
       },
       {
         sectionId: 'exam-practice-fill-code',
         type: 'code',
-        q: 'Given nums = [4, 1, 7, 3], write code to find the largest value. Store final answer in maxValue.',
+        q: 'In Java, given nums = [4, 1, 7, 3], write code to find the largest value. Store final answer in maxValue.',
         sampleInput: { nums: [4, 1, 7, 3] },
         resultVar: 'maxValue',
         expected: 7,
-        a: 'let maxValue = nums[0];\nfor (let i = 1; i < nums.length; i++) {\n  if (nums[i] > maxValue) maxValue = nums[i];\n}'
+        a: 'int maxValue = nums[0];\nfor (int i = 1; i < nums.length; i++) {\n  if (nums[i] > maxValue) maxValue = nums[i];\n}'
       },
       {
         sectionId: 'exam-practice-fill-code',
         type: 'code',
-        q: 'Given a = 48 and b = 18, write code to compute GCD using a loop. Store final answer in gcd.',
+        q: 'In Java, given a = 48 and b = 18, write code to compute GCD using a loop. Store final answer in gcd.',
         sampleInput: { a: 48, b: 18 },
         resultVar: 'gcd',
         expected: 6,
-        a: 'let x = a;\nlet y = b;\nwhile (y !== 0) {\n  const t = y;\n  y = x % y;\n  x = t;\n}\nconst gcd = x;'
+        a: 'int x = a;\nint y = b;\nwhile (y != 0) {\n  int t = y;\n  y = x % y;\n  x = t;\n}\nint gcd = x;'
       },
       {
         sectionId: 'exam-practice-fill-code',
         type: 'code',
-        q: 'Given s = "Hello World", write code to count vowels. Store final answer in vowels.',
+        q: 'In Java, given s = "Hello World", write code to count vowels. Store final answer in vowels.',
         sampleInput: { s: 'Hello World' },
         resultVar: 'vowels',
         expected: 3,
-        a: 'let vowels = 0;\nfor (const ch of s.toLowerCase()) {\n  if ("aeiou".includes(ch)) vowels += 1;\n}'
+        a: 'int vowels = 0;\nfor (int i = 0; i < s.length(); i++) {\n  char ch = Character.toLowerCase(s.charAt(i));\n  if ("aeiou".indexOf(ch) >= 0) vowels++;\n}'
       },
       {
         sectionId: 'exam-practice-fill-code',
         type: 'code',
-        q: 'Given n = 10, write code to compute the sum of even numbers from 1 to n. Store final answer in evenSum.',
+        q: 'In Java, given n = 10, write code to compute the sum of even numbers from 1 to n. Store final answer in evenSum.',
         sampleInput: { n: 10 },
         resultVar: 'evenSum',
         expected: 30,
-        a: 'let evenSum = 0;\nfor (let i = 2; i <= n; i += 2) {\n  evenSum += i;\n}'
+        a: 'int evenSum = 0;\nfor (int i = 2; i <= n; i += 2) {\n  evenSum += i;\n}'
       },
       {
         sectionId: 'exam-practice-fill-code',
         type: 'code',
-        q: 'Given values = [2, 4, 6, 8], write code to compute average. Store final answer in average.',
+        q: 'In Java, given values = [2, 4, 6, 8], write code to compute average. Store final answer in average.',
         sampleInput: { values: [2, 4, 6, 8] },
         resultVar: 'average',
         expected: 5,
-        a: 'let sum = 0;\nfor (const v of values) sum += v;\nconst average = sum / values.length;'
+        a: 'int sum = 0;\nfor (int v : values) sum += v;\nint average = sum / values.length;'
       },
       {
         sectionId: 'exam-practice-fill-code',
         type: 'code',
-        q: 'Given sentence = "java exam prep", write code to count words separated by spaces. Store result in wordCount.',
+        q: 'In Java, given sentence = "java exam prep", write code to count words separated by spaces. Store result in wordCount.',
         sampleInput: { sentence: 'java exam prep' },
         resultVar: 'wordCount',
         expected: 3,
-        a: 'const parts = sentence.trim().split(/\\s+/);\nconst wordCount = parts.length;'
+        a: 'String[] parts = sentence.trim().split("\\\\s+");\nint wordCount = parts.length;'
       }
     ];
   }
@@ -943,7 +957,7 @@
             <div class="mock-feedback" hidden>
               <p class="mock-feedback-status"></p>
               <p class="mock-code-output">Output: --</p>
-              <p><strong>Model snippet:</strong> <span class="mock-correct-answer">${formatAnswer(item.a)}</span></p>
+              <p><strong>Java model snippet:</strong> <span class="mock-correct-answer">${formatAnswer(item.a)}</span></p>
             </div>
           </article>
         `;
@@ -986,6 +1000,10 @@
       const choiceInputs = Array.from(item.querySelectorAll('.mock-choice-input'));
       choiceInputs.forEach((input) => {
         input.addEventListener('change', () => {
+          if (!currentMock || currentMock.selectedAnswers[itemIndex] !== null) {
+            return;
+          }
+
           const selectedAnswer = input.value;
           const currentItem = currentMock?.items[itemIndex];
           if (!currentItem) return;
@@ -1005,6 +1023,19 @@
 
           const doneLine = item.querySelector('.mock-score-line');
           if (doneLine) doneLine.hidden = false;
+
+          const allOptionLabels = Array.from(item.querySelectorAll('.mock-option'));
+          allOptionLabels.forEach((label) => {
+            label.classList.remove('selected');
+          });
+          const selectedLabel = input.closest('.mock-option');
+          if (selectedLabel) {
+            selectedLabel.classList.add('selected');
+          }
+
+          choiceInputs.forEach((choiceInput) => {
+            choiceInput.disabled = true;
+          });
         });
       });
     });
@@ -1180,7 +1211,7 @@
         const searchText = `${section.title} ${item.q} ${item.a}`.toLowerCase();
         const sourceLabel = section.id.startsWith('exam-pdf') ? 'Past paper question' : 'Practice question';
         const isCode = item.type === 'code';
-        const answerLabel = isCode ? 'Model snippet' : 'Answer';
+        const answerLabel = isCode ? 'Java model snippet' : 'Answer';
         const codeMeta = isCode
           ? `<p class="tool-note"><strong>Sample Input:</strong> ${escapeHtml(formatSampleInput(item.sampleInput || {}))}</p>
              <p class="tool-note"><strong>Expected Output:</strong> ${escapeHtml(JSON.stringify(item.expected))}</p>
