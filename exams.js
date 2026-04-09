@@ -29,14 +29,12 @@
   const SECTION_DEFS = [
     { id: 'exam-pdf-objectives', title: 'PDF Objectives' },
     { id: 'exam-pdf-short', title: 'PDF Short Answers' },
-    { id: 'exam-pdf-code', title: 'PDF Code Writing' },
     { id: 'exam-pdf-true-false', title: 'PDF True/False' },
     { id: 'exam-practice-basics', title: 'Practice Basics' },
     { id: 'exam-practice-arithmetic', title: 'Practice Arithmetic' },
     { id: 'exam-practice-control', title: 'Practice Control Flow' },
     { id: 'exam-practice-strings', title: 'Practice Strings' },
     { id: 'exam-practice-arrays', title: 'Practice Arrays & Collections' },
-    { id: 'exam-practice-fill-code', title: 'Practice Fill-in Code' },
     { id: 'exam-practice-oop', title: 'Practice OOP' },
     { id: 'exam-practice-exceptions', title: 'Practice Exceptions' },
     { id: 'exam-practice-methods', title: 'Practice Methods' }
@@ -126,11 +124,6 @@
     { sectionId: 'exam-pdf-short', q: 'Fill in the blank: the ______ block contains statements that may cause an exception.', a: 'try' },
     { sectionId: 'exam-pdf-short', q: 'Explain the difference between while and do-while loops.', a: 'while checks the condition before the loop body; do-while executes the body first and checks afterward.' },
     { sectionId: 'exam-pdf-short', q: 'Explain the difference between a single-dimensional array and an ArrayList.', a: 'An array has a fixed size; an ArrayList grows and shrinks dynamically.' },
-
-    { sectionId: 'exam-pdf-code', q: 'Correct Mary’s multidimensional array code and identify the errors.', a: 'Use String[][] dimArray = new String[3][2]; and assign names/marks with valid indices.' },
-    { sectionId: 'exam-pdf-code', q: 'Write a for-loop that prints only the marks of each student from the array.', a: 'for (int i = 0; i < dimArray.length; i++) System.out.println(dimArray[i][1]);' },
-    { sectionId: 'exam-pdf-code', q: 'Write a loop that computes the sum of all numbers between 2 and 100 that are multiples of 5 or 7.', a: 'Use a for-loop from 2 to 100 with an if condition checking i % 5 == 0 || i % 7 == 0.' },
-    { sectionId: 'exam-pdf-code', q: 'Write a conditional statement with three branches that sets y to 2, -3, or 0 depending on x.', a: 'if (x > 0) y = 2; else if (x < 0) y = -3; else y = 0;' },
 
     { sectionId: 'exam-pdf-true-false', q: 'True or False: The Java main method return type is void.', a: 'true' },
     { sectionId: 'exam-pdf-true-false', q: 'True or False: Java is platform-independent because compiled bytecode runs on the JVM.', a: 'true' },
@@ -479,116 +472,18 @@
     return items;
   }
 
-  function makeFillInCodePractice() {
-    return [
-      {
-        sectionId: 'exam-practice-fill-code',
-        type: 'code',
-        q: 'In Java, given n = 6, write code to compute factorial of n using a loop. Store final result in fact.',
-        sampleInput: { n: 6 },
-        resultVar: 'fact',
-        expected: 720,
-        a: 'int fact = 1;\nfor (int i = 1; i <= n; i++) {\n  fact *= i;\n}'
-      },
-      {
-        sectionId: 'exam-practice-fill-code',
-        type: 'code',
-        q: 'In Java, given arr = [3, 9, 2, 11, 5], write code to count elements greater than 5. Store final count in count.',
-        sampleInput: { arr: [3, 9, 2, 11, 5] },
-        resultVar: 'count',
-        expected: 2,
-        a: 'int count = 0;\nfor (int x : arr) {\n  if (x > 5) count++;\n}'
-      },
-      {
-        sectionId: 'exam-practice-fill-code',
-        type: 'code',
-        q: 'In Java, given text = "level", write code to check whether text is a palindrome. Store result in isPalindrome.',
-        sampleInput: { text: 'level' },
-        resultVar: 'isPalindrome',
-        expected: true,
-        a: 'String reversed = new StringBuilder(text).reverse().toString();\nboolean isPalindrome = text.equals(reversed);'
-      },
-      {
-        sectionId: 'exam-practice-fill-code',
-        type: 'code',
-        q: 'In Java, given score = 74, write code to assign grade using if/else: A (>=90), B (>=80), C (>=70), else D. Store in grade.',
-        sampleInput: { score: 74 },
-        resultVar: 'grade',
-        expected: 'C',
-        a: 'String grade;\nif (score >= 90) grade = "A";\nelse if (score >= 80) grade = "B";\nelse if (score >= 70) grade = "C";\nelse grade = "D";'
-      },
-      {
-        sectionId: 'exam-practice-fill-code',
-        type: 'code',
-        q: 'In Java, given nums = [4, 1, 7, 3], write code to find the largest value. Store final answer in maxValue.',
-        sampleInput: { nums: [4, 1, 7, 3] },
-        resultVar: 'maxValue',
-        expected: 7,
-        a: 'int maxValue = nums[0];\nfor (int i = 1; i < nums.length; i++) {\n  if (nums[i] > maxValue) maxValue = nums[i];\n}'
-      },
-      {
-        sectionId: 'exam-practice-fill-code',
-        type: 'code',
-        q: 'In Java, given a = 48 and b = 18, write code to compute GCD using a loop. Store final answer in gcd.',
-        sampleInput: { a: 48, b: 18 },
-        resultVar: 'gcd',
-        expected: 6,
-        a: 'int x = a;\nint y = b;\nwhile (y != 0) {\n  int t = y;\n  y = x % y;\n  x = t;\n}\nint gcd = x;'
-      },
-      {
-        sectionId: 'exam-practice-fill-code',
-        type: 'code',
-        q: 'In Java, given s = "Hello World", write code to count vowels. Store final answer in vowels.',
-        sampleInput: { s: 'Hello World' },
-        resultVar: 'vowels',
-        expected: 3,
-        a: 'int vowels = 0;\nfor (int i = 0; i < s.length(); i++) {\n  char ch = Character.toLowerCase(s.charAt(i));\n  if ("aeiou".indexOf(ch) >= 0) vowels++;\n}'
-      },
-      {
-        sectionId: 'exam-practice-fill-code',
-        type: 'code',
-        q: 'In Java, given n = 10, write code to compute the sum of even numbers from 1 to n. Store final answer in evenSum.',
-        sampleInput: { n: 10 },
-        resultVar: 'evenSum',
-        expected: 30,
-        a: 'int evenSum = 0;\nfor (int i = 2; i <= n; i += 2) {\n  evenSum += i;\n}'
-      },
-      {
-        sectionId: 'exam-practice-fill-code',
-        type: 'code',
-        q: 'In Java, given values = [2, 4, 6, 8], write code to compute average. Store final answer in average.',
-        sampleInput: { values: [2, 4, 6, 8] },
-        resultVar: 'average',
-        expected: 5,
-        a: 'int sum = 0;\nfor (int v : values) sum += v;\nint average = sum / values.length;'
-      },
-      {
-        sectionId: 'exam-practice-fill-code',
-        type: 'code',
-        q: 'In Java, given sentence = "java exam prep", write code to count words separated by spaces. Store result in wordCount.',
-        sampleInput: { sentence: 'java exam prep' },
-        resultVar: 'wordCount',
-        expected: 3,
-        a: 'String[] parts = sentence.trim().split("\\\\s+");\nint wordCount = parts.length;'
-      }
-    ];
-  }
-
-  const FILL_CODE_ITEMS = makeFillInCodePractice();
-
   const PRACTICE_ITEMS = [
     ...makeBasicsPractice(),
     ...makeArithmeticPractice(),
     ...makeControlPractice(),
     ...makeStringsPractice(),
     ...makeCollectionsPractice(),
-    ...FILL_CODE_ITEMS,
     ...makeOopPractice(),
     ...makeExceptionsPractice(),
     ...makeMethodsPractice()
   ];
 
-  const MOCK_ITEM_POOL = [...PDF_EXAM_ITEMS, ...FILL_CODE_ITEMS];
+  const MOCK_ITEM_POOL = [...PDF_EXAM_ITEMS];
 
   const allItems = [...PDF_EXAM_ITEMS, ...PRACTICE_ITEMS];
   const answerPool = Array.from(new Set(allItems.map((item) => item.a).filter(Boolean)));
@@ -1154,7 +1049,7 @@
       examMockBank.innerHTML = '';
     }
     if (examMockNote) {
-      examMockNote.textContent = 'Choose options for MCQ and write code snippets for fill-in-code items.';
+      examMockNote.textContent = 'Choose one option per question. Selections are locked until reset.';
     }
     setMockStatus('Mock test reset.');
     setMockTimerText('Time left: --:--');
@@ -1181,9 +1076,9 @@
     if (examMockSubmit) examMockSubmit.disabled = false;
     if (examMockSave) examMockSave.disabled = true;
 
-    setMockStatus(`Mock test started with ${count} mixed questions (MCQ + fill-in-code).`);
+    setMockStatus(`Mock test started with ${count} questions.`);
     if (examMockNote) {
-      examMockNote.textContent = 'MCQ shows feedback after selection. For code questions, click Check Code or submit to auto-evaluate.';
+      examMockNote.textContent = 'MCQ answers are checked on selection and then locked.';
     }
 
     const tick = () => {

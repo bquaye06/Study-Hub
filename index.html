@@ -21,8 +21,7 @@
     <a class="tab-link active" href="#cram" data-tab="cram">1) Cram Sheet</a>
     <a class="tab-link" href="#questions" data-tab="questions">2) Question Bank</a>
     <a class="tab-link" href="#exams" data-tab="exams">3) Exams</a>
-    <a class="tab-link" href="#code-lab" data-tab="code-lab">4) Code Lab</a>
-    <a class="tab-link" href="#roadmap" data-tab="roadmap">5) Practical Roadmap</a>
+    <a class="tab-link" href="#roadmap" data-tab="roadmap">4) Practical Roadmap</a>
     <button id="themeToggle" class="utility-btn" type="button" aria-label="Toggle dark and light theme">Switch Theme</button>
   </nav>
 
@@ -239,14 +238,12 @@ out.close();</code></pre>
         <span>Jump to:</span>
         <a href="#exam-pdf-objectives">PDF Objectives</a>
         <a href="#exam-pdf-short">PDF Short Answers</a>
-        <a href="#exam-pdf-code">PDF Code Writing</a>
         <a href="#exam-pdf-true-false">PDF True/False</a>
         <a href="#exam-practice-basics">Practice Basics</a>
         <a href="#exam-practice-arithmetic">Arithmetic</a>
         <a href="#exam-practice-control">Control Flow</a>
         <a href="#exam-practice-strings">Strings</a>
         <a href="#exam-practice-arrays">Arrays & Collections</a>
-        <a href="#exam-practice-fill-code">Fill-in Code</a>
         <a href="#exam-practice-oop">OOP</a>
         <a href="#exam-practice-exceptions">Exceptions</a>
         <a href="#exam-practice-methods">Methods</a>
@@ -265,14 +262,12 @@ out.close();</code></pre>
               <option value="all">All sections</option>
               <option value="exam-pdf-objectives">PDF Objectives</option>
               <option value="exam-pdf-short">PDF Short Answers</option>
-              <option value="exam-pdf-code">PDF Code Writing</option>
               <option value="exam-pdf-true-false">PDF True/False</option>
               <option value="exam-practice-basics">Practice Basics</option>
               <option value="exam-practice-arithmetic">Practice Arithmetic</option>
               <option value="exam-practice-control">Practice Control Flow</option>
               <option value="exam-practice-strings">Practice Strings</option>
               <option value="exam-practice-arrays">Practice Arrays & Collections</option>
-              <option value="exam-practice-fill-code">Practice Fill-in Code</option>
               <option value="exam-practice-oop">Practice OOP</option>
               <option value="exam-practice-exceptions">Practice Exceptions</option>
               <option value="exam-practice-methods">Practice Methods</option>
@@ -334,30 +329,6 @@ out.close();</code></pre>
 
       <div id="examBank"></div>
       <p id="examNoResults" class="tool-note" hidden>No exam questions match your current filter.</p>
-    </section>
-
-    <section id="code-lab" class="tab-panel" role="tabpanel" aria-label="Code Lab">
-      <div class="panel-head">
-        <h2>Code Lab: Fill in the Code</h2>
-        <p>Write short code snippets for each task, then auto-check your answer as correct or incorrect.</p>
-        <button class="pdf-btn" type="button" data-export="code-lab">Download This Tab as PDF</button>
-      </div>
-
-      <section class="card tools" aria-label="Code Lab tools">
-        <h3>How Auto-Checking Works</h3>
-        <ul>
-          <li>Each question includes sample input values and an expected output (values rotate over time).</li>
-          <li>Your snippet runs against the sample inputs in a sandbox.</li>
-          <li>Set the final answer into the required variable name listed in each question.</li>
-        </ul>
-        <div class="quiz-actions">
-          <button id="checkAllCodeLab" type="button" class="utility-btn">Check All Answers</button>
-          <button id="clearCodeLab" type="button" class="utility-btn">Clear All Code</button>
-        </div>
-        <p id="codeLabSummary" class="tool-note">Solved 0 / 0 correctly.</p>
-      </section>
-
-      <div id="codeLabMount"></div>
     </section>
 
     <section id="roadmap" class="tab-panel" role="tabpanel" aria-label="Practical Coding Roadmap">
