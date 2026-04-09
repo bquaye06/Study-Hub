@@ -90,16 +90,20 @@ h1 {
   gap: 0.7rem;
   position: sticky;
   top: 0;
-  background: linear-gradient(to bottom, rgba(247, 241, 230, 0.95), rgba(247, 241, 230, 0.75));
+  background: linear-gradient(to bottom, rgba(var(--bg-rgb), 0.95), rgba(var(--bg-rgb), 0.75));
   backdrop-filter: blur(4px);
   z-index: 3;
+}
+
+body[data-theme="dark"] .main-nav {
+  background: linear-gradient(to bottom, rgba(18, 21, 31, 0.95), rgba(18, 21, 31, 0.75));
 }
 
 .tab-link {
   text-decoration: none;
   color: var(--ink);
   border: 1px solid var(--line);
-  background: #fff4e6;
+  background: var(--card);
   padding: 0.55rem 0.85rem;
   border-radius: 999px;
   font-weight: 600;
@@ -139,7 +143,7 @@ h1 {
 .tab-link:hover,
 .tab-link:focus-visible {
   transform: translateY(-1px);
-  background: #ffe6cb;
+  background: color-mix(in srgb, var(--card) 85%, var(--accent) 15%);
 }
 
 .tab-link.active {
