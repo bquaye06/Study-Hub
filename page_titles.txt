@@ -1,0 +1,364 @@
+
+## Catalog
+p1: java
+
+## java
+p2: Seven
+
+## February 10, 2019
+p3: 
+
+## Introduction to Computers and Java
+p4: Revision
+p5: Revision
+p6: Revision
+p7: Revision
+p8: Revision
+p9: Revision
+p10: Revision
+p11: Revision
+p12: Revision
+p13: Revision
+p14: Revision
+p15: 
+p16: Java Programming Language
+p17: Java Programming Language - Some Typical Applications
+p18: Java Programming Language - Things to Note
+p19: Java Programming Language - Things to Note
+p20: Java Programming Language - Things to Note
+p21: Java Programming Language - Things to Note
+p22: Java Programming Language - Things to Note
+p23: Some Editors for Creating Java Source Files:
+
+## References
+p24: Y. Daniel Liang (2014), Introduction to Java Programming,
+
+## February 10, 2019
+p25: 
+
+## Elementary Programming
+p26: Variables
+p27: Variables
+p28: Variables
+p29: Variables
+p30: Variables
+p31: Variables
+p32: Variable Declaration - Data Types
+p33: Variable Declaration - Things to Note
+p34: Variables
+p35: Variables
+p36: Variables
+p37: Variables
+p38: Arithmetic
+p39: Arithmetic
+p40: Arithmetic
+p41: Arithmetic
+
+## Identify and Solve the problem with this code
+p42: 
+
+## Elementary Programming
+p43: Input Reading from Keyboard or Console
+p44: Input Reading from Keyboard or Console
+p45: Input Reading from Keyboard or Console
+p46: Input Reading from Keyboard or Console
+p47: Input Reading from Keyboard or Console
+p48: Practicals
+p49: Input Reading from Keyboard or Console
+p50: Numeric Data Types and Operators
+p51: Numeric Data Types
+p52: Revision
+p53: Revision
+p54: Revision
+p55: Numeric Operators - Increment and Decrement Operators
+p56: Revision
+p57: Revision
+p58: Revision
+p59: Revision
+p60: Revision
+p61: Decision Making - Equality and Relational Operators
+p62: Practicals
+p63: Practicals
+
+## Practicals
+p64: Body Mass Index (BMI) is a measure of health based on height and
+
+## References
+p65: Y. Daniel Liang (2014), Introduction to Java Programming,
+
+## February 12, 2019
+p66: 
+
+## Mathematical Functions, Characters and Strings
+p67: Focus of this Chapter
+p68: Mathematical Functions
+p69: Mathematical Functions
+p70: Mathematical Functions
+p71: Mathematical Functions
+p72: Mathematical Functions
+p73: Mathematical Functions
+p74: Mathematical Functions
+p75: Mathematical Functions
+p76: Mathematical Functions
+p77: Mathematical Functions
+p78: Character Data Types and Operations
+p79: Character Data Types and Operations
+p80: Character Data Types and Operations
+p81: Character Data Types and Operations
+p82: Character Data Types and Operations
+p83: Character Data Types and Operations
+p84: Character Data Types and Operations
+p85: Character Data Types and Operations
+p86: Character Data Types and Operations
+p87: Character Data Types and Operations
+p88: Character Data Types and Operations
+p89: Character Data Types and Operations
+p90: The String Data Type
+p91: The String Data Type
+p92: The String Data Type
+p93: The String Data Type
+p94: The String Data Type
+p95: The String Data Type
+p96: The String Data Type
+p97: The String Data Type - Comparing Strings
+p98: The String Data Type - Obtaining Substrings
+
+## References
+p99: Y. Daniel Liang (2014), Introduction to Java Programming,
+
+## February 21, 2019
+p100: 
+
+## Selections and Loops
+p101: Selections
+p102: Selections
+p103: Selections
+p104: Selections
+p105: Selections
+p106: Selections
+p107: Selections
+p108: Selections
+p109: Selections
+p110: Selections
+p111: Selections
+p112: switch Statements
+p113: switch Statements
+p114: switch Statements
+
+## switch Statements
+p115: Given the Chinese Zodiac sign above, write a Java program (using
+
+## Selections and Loops
+p116: Selections
+p117: Loops
+p118: Loops
+p119: Loops
+p120: Loops
+p121: Loops
+p122: Loops
+p123: Loops
+p124: Loops
+p125: Loops
+p126: Loops
+
+## References
+p127: Y. Daniel Liang (2014), Introduction to Java Programming,
+
+## March 4, 2019
+p128: 
+
+## Exception Handling and Input/Output
+p129: Exception Handling
+p130: Exception Handling
+p131: Exception Handling
+p132: Exception Handling
+
+## Exception Types
+p133: 
+
+## Exception Handling and Input/Output
+p134: Exception Handling
+p135: Exception Handling
+p136: Exception Handling
+p137: Exception Handling
+p138: Handling Arithmetic Exceptions
+p139: Handling Arithmetic Exceptions - Possible Exceptions
+p140: Handling Arithmetic Exceptions
+p141: Handling Arithmetic Exceptions
+p142: Handling Arithmetic Exceptions - Allowing User Re-enter Values
+p143: Exception Handling
+p144: Exception Handling
+p145: Handling InputMismatch Exceptions
+p146: Handling InputMismatch Exceptions
+p147: Handling InputMismatch Exceptions
+p148: Handling InputMismatch Exceptions
+p149: Handling InputMismatch Exceptions
+p150: The File Class
+p151: The File Class
+p152: File Input and Output - Reading Data with the Scanner
+p153: File Input and Output - Reading Data with the Scanner
+p154: File Input and Output - Reading Data with the Scanner
+p155: File Input and Output - Reading Data with the Scanner
+p156: File Input and Output - Writing Data with the PrintWriter
+p157: File Input and Output - Writing Data with the PrintWriter
+p158: File Input and Output - Reading Data with the Scanner
+p159: File Input - Reading Data from the Web with Scanner
+
+## Practicals: Write a program to read the content on the ﬁle for
+p160: UMaT’s website’s home page. Your code should look something
+
+## References
+p161: Y. Daniel Liang (2014), Introduction to Java Programming,
+
+## April 1, 2019
+p162: 
+
+## Data Structures in Java
+p163: Why Data Structures?
+p164: What will be discussed
+p165: Single Dimensional Arrays
+p166: Single Dimensional Arrays
+p167: Single Dimensional Arrays
+p168: Arrays - Creating Arrays
+p169: Arrays - Creating Arrays
+p170: Arrays - Creating Arrays
+p171: Arrays - Accessing Array Elements
+p172: Single Dimensional Arrays
+p173: Single Dimensional Arrays
+p174: Arrays - Creating Arrays Practicals
+p175: Single Dimensional Arrays
+p176: Arrays - Processing Arrays
+p177: Arrays - Processing Arrays
+p178: Single Dimensional Arrays
+p179: Multidimensional Arrays
+p180: Multidimensional Arrays
+p181: Multidimensional Arrays
+p182: Multidimensional Arrays
+p183: Multidimensional Arrays
+p184: Multidimensional Arrays
+p185: Multidimensional Arrays
+p186: Multidimensional Arrays
+p187: Multidimensional Arrays
+p189: Multidimensional Arrays
+p190: Array Lists
+p191: Array Lists
+p192: Array Lists
+p193: Array Lists
+p194: Array Lists
+p195: Array Lists
+p196: Practicals
+p197: Array Lists
+p198: Practicals
+p199: Sets
+p200: Sets
+p201: Sets
+p202: Sets
+p203: Sets
+p204: Sets
+p205: Maps
+p206: Maps
+p207: HashMaps:
+p208: HashMaps:
+p209: HashMaps:
+p210: HashMaps:
+p211: HashMaps and HashSets :
+p212: Things to try your hands on for practical quiz:
+
+## References
+p213: Y. Daniel Liang (2014), Introduction to Java Programming,
+
+## April 2, 2019
+p214: 
+
+## Classes and Objects
+p215: Why Classes and Objects?
+p216: Why Object Oriented Programming?
+p217: What are Objects?
+p218: Features of Objects
+p219: What is a Class?
+p220: Deﬁning a Class
+p221: Deﬁning a Class - A Class of Rectangular Boxes
+p222: Deﬁning a Class - A Class of Rectangular Boxes
+p223: Deﬁning a Class - A Class of Rectangular Boxes
+
+## Deﬁning a Class - A Class of Rectangular Boxes
+p224: 
+p225: 
+p226: 
+
+## Classes and Objects
+p227: Constructing Objects with Constructors from a Class.
+
+## Deﬁning a Class - A Class of Rectangular Boxes
+p228: 
+
+## Classes and Objects
+p229: Accessing Objects via Reference Variables
+p230: Accessing Objects via Reference Variables
+p231: Accessing Objects via Reference Variables
+p232: Accessing Object’s Data and Methods
+p233: Static Variables, Constants and Methods
+
+## Static Variable, Constants and Methods - Illustration
+p234: 
+
+## Classes and Objects
+p235: Visibility Modiﬁers
+p236: Data Field Encapsulation
+p237: The this Reference
+p238: The this Reference - Illustrations
+p239: The this Reference - Illustrations
+p240: Inheritance and Polymorphism
+
+## A Primer to Methods
+p241: Methods
+p242: Deﬁning Methods
+p243: Deﬁning Methods - Illustration Finding Maximum of Two
+p244: Methods
+p245: Calling/Invoking Methods
+
+## Without Methods: Printing the sum of numbers in a range
+p246: 
+
+## Using Methods: Printing the sum of numbers in a range
+p247: 
+
+## A Primer to Methods
+p248: Practicals Playing with Methods
+
+## References
+p249: Y. Daniel Liang (2014), Introduction to Java Programming,
+
+## April 9, 2019
+p250: 
+
+## Application Development
+p251: Java Tools for Application Development
+p252: Java Swing vs JavaFx
+p253: Installing Java Swing WindowBuilder - Eclipse IDE
+p254: Installing JavaFX - Eclipse IDE
+p255: Creating a Java Swing Project in Eclipse
+p256: Creating a Java Swing Project in Eclipse
+p257: Creating a Java Swing Project in Eclipse
+p258: Creating a Java Swing Project in Eclipse
+p259: Creating a Java Swing Project in Eclipse
+p260: Creating a Java Swing Project in Eclipse
+p261: Creating a Java Swing Project in Eclipse
+p262: Creating a Java Swing Project in Eclipse
+p263: Creating a Java Swing Project in Eclipse
+p264: Creating a Java Swing Project in Eclipse
+p265: Creating a Java Swing Project in Eclipse
+p266: Creating a Java Swing Project in Eclipse
+p267: Changing Component Properties of a Java Swing Project in
+p268: Event Handling - Java Swing Applications
+p269: Event Handling - Java Swing Applications
+p270: Adding Event Handlers - Java Swing Applications
+p271: Adding Event Handlers - Java Swing Applications
+p272: Adding Event Handlers - Java Swing Applications
+p273: Adding Event Handlers - Java Swing Applications
+p274: Adding Event Handlers - Java Swing Applications
+p275: Creating a Runnable JAR File - Java Swing Applications
+p276: Creating an Executable from JAR File - Java Swing Applications
+
+## References
+p277: Y. Daniel Liang (2014), Introduction to Java Programming,

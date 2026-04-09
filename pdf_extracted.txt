@@ -1,0 +1,3422 @@
+
+
+===== PAGE 1 =====
+Catalog
+java
+ 
+one
+ 
+ 
+1
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+java
+ 
+two
+ 
+ 
+23
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+java
+ 
+Three
+ 
+ 
+64
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+java
+ 
+Four
+ 
+ 
+98
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+java
+ 
+Five
+ 
+ 
+126
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+java
+ 
+Six
+ 
+ 
+160
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+
+===== PAGE 2 =====
+java
+ 
+Seven
+ 
+ 
+212
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+java
+ 
+Eight
+ 
+ 
+248
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+·
+
+===== PAGE 3 =====
+Programming with Java: CE 277
+Course Lecturer: Vincent M. Nofong, Ph.D.
+Computer Science and Engineering Department
+University of Mines and Technology, Tarkwa - Ghana
+February 10, 2019
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 4 =====
+Introduction to Computers and Java
+Revision
+What is a Computer?
+- A programmable electronic device that accepts data in one form
+and processes it to produce data in another form.
+Basically a modern computer is made of:
+Input device(s)
+Processor(s)
+Storage device(s)
+Output device(s)
+Software
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 5 =====
+Introduction to Computers and Java
+Revision
+An Abstract View of the Computer
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 6 =====
+Introduction to Computers and Java
+Revision
+What is an Operating System?
+A program that controls the execution of application programs
+and acts as an interface between applications and the
+computer hardware.
+What is an Application Program?
+Reading assignment
+We will learn to create some simple application programs with
+Java
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 7 =====
+Introduction to Computers and Java
+Revision
+Categories of Programming Languages
+Machine language
+The native language of computers
+Made of a set of built-in primitive instructions
+These instructions are often in binary code. E.g 1011101001
+Not easy to program, not easy to read and/or modify code
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 8 =====
+Introduction to Computers and Java
+Revision
+Categories of Programming Languages
+Assembly Language
+Was developed to make programming easier
+Uses mnemonics1 to represent machine language instructions.
+For example, the mnemonic add means add two numbers and
+sub means subtract two numbers.
+An assembler is needed to translate assembly language into
+machine code. Why?
+Computers cannot execute assembly language
+1Short descriptive words
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 9 =====
+Introduction to Computers and Java
+Revision
+Categories of Programming Languages
+Assembly Language
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 10 =====
+Introduction to Computers and Java
+Revision
+Categories of Programming Languages
+High Level languages
+These are platform dependent.
+They are “English-like”, easy to learn and use.
+Instructions are written in the form of statements
+For example, ExamScore = 25 + 42;
+There are many high level languages, designed for speciﬁc
+purposes. Examples: Ada, Basic, C, C++, C#, Java, Pascal,
+Python, Visual Basic, R, etc.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 11 =====
+Introduction to Computers and Java
+Revision
+Categories of Programming Languages
+High Level languages
+A program written in high level language is called the source
+program or source code
+A source code has to be translated into machine code for
+execution.
+Source code translation can be done with an interpreter or
+compiler
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 12 =====
+Introduction to Computers and Java
+Revision
+Categories of Programming Languages
+High Level languages - Interpreter vs Compiler
+Interpreter
+Reads one statement from the source code, translates it to the
+machine code or virtual machine code, and then executes the
+statement.
+Compiler
+Translates the entire source code into a machine-code ﬁle, and
+executes the machine-code ﬁle.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 13 =====
+Introduction to Computers and Java
+Revision
+Categories of Programming Languages
+High Level languages - Interpreter vs Compiler
+Interpreter
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 14 =====
+Introduction to Computers and Java
+Revision
+Categories of Programming Languages
+High Level languages - Interpreter vs Compiler
+Compiler
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 15 =====
+Introduction to Computers and Java
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 16 =====
+Introduction to Computers and Java
+Java Programming Language
+Originally designed for programming consumer devices.
+Was ﬁrst successfully used to write Internet applets.
+Much easier to use than its closest rival, C++.
+Very suitable for beginners: portable
+Same Java program will run without change on Windows, UNIX,
+Linux, Macintosh.
+No need to learn how to write programs for diﬀerent platforms.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 17 =====
+Introduction to Computers and Java
+Java Programming Language - Some Typical Applications
+Created with Java
+Eclipse.
+Netbeans IDE.
+IntelliJ IDEA
+Most Android programs written with Google’s Android API
+MATLAB desktop/UI
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 18 =====
+Introduction to Computers and Java
+Java Programming Language - Things to Note
+Java Language Speciﬁcation
+A technical deﬁnition of the Java programming language’s
+syntax and semantics.
+You can download the speciﬁcation at:
+https://docs.oracle.com/javase/specs/
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 19 =====
+Introduction to Computers and Java
+Java Programming Language - Things to Note
+Java API - Application Program Interface
+Contains predeﬁned classes and interfaces for developing Java
+programs
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 20 =====
+Introduction to Computers and Java
+Java Programming Language - Things to Note
+JDK - Java Development Toolkit
+Consists of a set of separate programs, which are invoked from
+a command line, for developing and testing Java programs.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 21 =====
+Introduction to Computers and Java
+Java Programming Language - Things to Note
+Java comes in four platforms:
+Java Standard Edition (Java SE) :
+-For developing client-side applications which can run
+standalone or as applets on a Web browser.
+Java Enterprise Edition (Java EE)
+-For developing server-side applications.
+Java Micro Edition (Java ME)
+-For developing applications for mobile devices
+JavaFX
+-For creating rich internet applications using a lightweight
+user-interface API.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 22 =====
+Introduction to Computers and Java
+Java Programming Language - Things to Note
+From Source Code to Running Program
+What are the steps?
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 23 =====
+Introduction to Computers and Java
+Some Editors for Creating Java Source Files:
+Eclipse
+Netbeans
+IntelliJ IDEA
+Android Studio
+BlueJ
+jEdit
+DrJava
+Notepad
+and the list goes on
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 24 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 25 =====
+Programming with Java: CE 277
+Course Lecturer: Vincent M. Nofong, Ph.D.
+Computer Science and Engineering Department
+University of Mines and Technology, Tarkwa - Ghana
+February 10, 2019
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 26 =====
+Elementary Programming
+Variables
+What is a Variable?
+A variable is a storage location in a computer program.
+Each variable has a name and holds a value.
+Variables are used to store values to be used later in a program.
+Why are they called variables?
+Because their values can be changed
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 27 =====
+Elementary Programming
+Variables
+About Variables
+They are for representing data of a certain type.
+To use a variable, you declare it by telling the compiler its
+name as well as the type of data it can store.
+Why must we declare the variables?
+To tell the compiler to allocate an appropriate memory space for the
+variable based on its data type.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 28 =====
+Elementary Programming
+Variables
+Variable Declaration
+The syntax for declaring a variable is:
+dataType variableName = value; OR dataType variableName;
+For example:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 29 =====
+Elementary Programming
+Variables
+Variable Declaration
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 30 =====
+Elementary Programming
+Variables
+Variable Declaration
+There are three types of variables in Java:
+1 Local variable: A variable which is declared inside a method.
+2 Instance Variable: A variable which is declared inside the
+class but outside the method, and is not static
+3 Static variable: A variable that is declared as static.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 31 =====
+Elementary Programming
+Variables
+Variable Declaration
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 32 =====
+Elementary Programming
+Variable Declaration - Data Types
+There are two data types available in Java:
+1 Primitive Data Types
+byte (number, 1 byte)
+short (number, 2 bytes)
+int (number, 4 bytes)
+long (number, 8 bytes)
+ﬂoat (ﬂoat number, 4 bytes)
+double (ﬂoat number, 8 bytes)
+char (a character, 2 bytes)
+boolean (true or false, 1 bit)
+2 Non-primitive
+String, Array, etc
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 33 =====
+Elementary Programming
+Variable Declaration - Things to Note
+Few simple rules for the names of variables, methods, and classes:
+Names must start with a letter or the underscore ( ) character.
+You cannot use other symbols such as ? or %
+Spaces are not permitted inside names
+Names are case sensitive, i.e., studentMark and studentmark
+are diﬀerent names
+Reserved words e.g. double or class cannot be used as names
+Variables of the same type can be declared together. E.g:
+int i, j, k;
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 34 =====
+Elementary Programming
+Variables
+Identify and Solve the Problem in this Code
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 35 =====
+Elementary Programming
+Variables
+Assignment Statements
+Are used to designate values for variables.
+In Java, the equal to sign ( =) is used as the assignment
+operator
+Assignment Expressions
+An expression representing a computation involving values,
+variables, and operators that, taking them together, evaluates
+to a value.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 36 =====
+Elementary Programming
+Variables
+Assignment Statements and Assignment Expressions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 37 =====
+Elementary Programming
+Variables
+Identify and Solve the Problem in this Code
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 38 =====
+Elementary Programming
+Arithmetic
+Solve: 2+ 3∗ 4− 5∗ 6=?
+Arithmetic Operators
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 39 =====
+Elementary Programming
+Arithmetic
+Arithmetic Expressions in Java
+Arithmetic expressions must be written in straight-line form to
+facilitate entering programs into the computer.
+For instance, x = a
+b will be written as x = a/slash.leftb;
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 40 =====
+Elementary Programming
+Arithmetic
+Arithmetic Functions - Rules of Operator Precedence
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 41 =====
+Elementary Programming
+Arithmetic
+Solve: 3∗ 6 % 5 + 6/slash.left3− 8=?
+Best way to write Arithmetic in Java?
+Use parentheses
+Functions in parentheses are evaluated ﬁrst
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 42 =====
+Identify and Solve the problem with this code
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 43 =====
+Elementary Programming
+Input Reading from Keyboard or Console
+Why read input from Keyboard?
+- To enable programs accept input from the user
+Java uses:
+1 System.out to refer to the standard output device, and
+2 System.in to refer to the standard input device.
+NOTE: By default:
+1 The output device is the monitor, and,
+2 The input device is the Keyboard
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 44 =====
+Elementary Programming
+Input Reading from Keyboard or Console
+Java print, println, etc methods display the value to console
+Console input is not directly supported in Java.
+However, you can use the Scanner or BuﬀeredReader classes to
+create objects that read from the System.in
+Distinctions between print and println - practicals
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 45 =====
+Elementary Programming
+Input Reading from Keyboard or Console
+Scanner vs BuﬀeredReader
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 46 =====
+Elementary Programming
+Input Reading from Keyboard or Console
+For the meantime, we will play with the Scanner.
+BuﬀeredReader - reading assignment
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 47 =====
+Elementary Programming
+Input Reading from Keyboard or Console
+Scanner Syntax
+The Scanner class can be used to create an object to read input
+from System.in as:
+Scanner input = new Scanner(System.in);
+The syntax new Scanner(System.in):
+Creates an object of the Scanner type
+The syntax Scanner input:
+Declares “input” as a variable whose type is Scanner.
+Note: Scanner objects must be closed once they are no more being
+used.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 48 =====
+Elementary Programming
+Practicals
+(a) Create a Java program that when run:
+1 Asks the user for his/her name
+2 Accepts user input from keyboard
+3 Displays a welcome message with the user name.
+(b) Modify the above program such that when run:
+1 Asks the user for his/her name
+2 Asks the user for his/her age as an integer
+3 Accepts user inputs from keyboard
+4 Displays a message with the user’s name and age.
+How do you ensure only integers are entered by the user?
+We will treat this under exception handling.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 49 =====
+Elementary Programming
+Input Reading from Keyboard or Console
+Practicals
+(c) Create a Java program that when run:
+1 Asks a user for the length of the triangle
+2 Accepts an integer as the length from the keyboard
+3 Asks the user for hight of the triangle
+4 Accepts a double as the height from the keyboard
+5 Computes the area of the triangle
+6 Displays the computed are of the triangle.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 50 =====
+Elementary Programming
+Numeric Data Types and Operators
+Java has six numeric data types for:
+Integers (byte, short, int, long)
+Floating point numbers (ﬂoat, double)
+with ﬁve operators ( +,−, /slash.left,∗, % )
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 51 =====
+Elementary Programming
+Numeric Data Types
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 52 =====
+Elementary Programming
+Revision
+Numeric Operators
+(+,−, /slash.left,∗, % )
+We have all used them before. We know what they do.
+Practicals
+Create a Java program that when run:
+1 Ask user to enter time in seconds as an integer
+2 Accepts user input
+3 Converts the time in seconds into minutes and seconds
+4 Displays the conversion to user.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 53 =====
+Elementary Programming
+Revision
+Numeric Operators - Increment and Decrement Operators
+The Increment Operator ++
+A shorthand for incrementing a variable by 1
+The Decrement Operator ( −−)
+A shorthand for decrementing a variable by 1
+Examples: Given int i =2; int j =2;
+i++; ⇒ i becomes 3
+j−−; ⇒ j becomes 1
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 54 =====
+Elementary Programming
+Revision
+Numeric Operators - Increment and Decrement Operators
+Increment and decrement operators could be:
+Preincrement (++i) OR Postincrement (i++)
+Predecrement (−−i) OR Postdecrement (i−−)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 55 =====
+Elementary Programming
+Numeric Operators - Increment and Decrement Operators
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 56 =====
+Elementary Programming
+Revision
+Numeric Type Conversion
+Can we perform an operation with two numeric types? YES
+1/2 =?
+1.0/2 =?
+You can always assign a value to a numeric variable whose
+type supports a larger range of values.
+Example: you can assign a long value to a ﬂoat variable.
+You cannot, however, assign a value to a variable of a type
+with a smaller range unless you use type casting
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 57 =====
+Elementary Programming
+Revision
+Numeric Type Conversion
+What is casting?
+An operation that converts a value of one data type into a
+value of another data type.
+About casting
+Widening type: Casting a type with a small range to a type
+with a larger range.
+Narrowing type: Casting a type with a large range to a type
+with a smaller range.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 58 =====
+Elementary Programming
+Revision
+Numeric Type Conversion
+Integer to double - System.out.println((double)2/3))
+Double to integer - System.out.println((int)2.34)
+Note: Fractional part will be truncated
+Learn the rest
+Can String be converted into a double, integer, ﬂoat, etc.?
+YES
+Given: String height = ”1.76”; how can it be converted to a
+double? double newHeight = Double.parseDouble(height);
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 59 =====
+Elementary Programming
+Revision
+Decision Making - Equality and Relational Operators
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 60 =====
+Elementary Programming
+Revision
+Decision Making - Equality and Relational Operators
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 61 =====
+Elementary Programming
+Decision Making - Equality and Relational Operators
+Practicals
+Create a Java program that when run:
+1 Generates a random number between 0 and 4
+2 Asks the user to guess the generated number
+3 Accepts user input
+4 Displays “Congratulations, you won” if user input is same as
+random number
+5 Displays “You lost, number too high” if user input is higher
+than random number
+6 Displays “You lost, number too low” if user input is lower than
+random number.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 62 =====
+Elementary Programming
+Practicals
+Write a program that reads two integer inputs from a user and
+determines if the ﬁrst is a multiple of the second.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 63 =====
+Elementary Programming
+Practicals
+Write a program that reads a Celsius degree in a double value from
+the console, then converts it to Fahrenheit and displays the result.
+The formula for the conversion is as follows:
+Fahrenheit = 9
+5∗ celsius+ 32 (1)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 64 =====
+Practicals
+Body Mass Index (BMI) is a measure of health based on height and
+weight. It can be calculated by taking your weight in kilograms and
+dividing it by the square of your height in meters. The
+interpretation of BMI for people 20 years or older is as follows:
+BMI < 18.5: Underweight
+18.5 ≤ BMI < 25.0: Normal
+25.0 ≤ BMI < 30.0: Overweight
+30.0 ≤ BMI: Obese
+Write a program that prompts the user to enter a weight in
+kilograms and height in meters and displays the BMI and the health
+indication of the person
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 65 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 66 =====
+Programming with Java
+CE 277
+Course Lecturer: Vincent M. Nofong, Ph.D.
+Computer Science and Engineering Department
+University of Mines and Technology, Tarkwa - Ghana
+February 12, 2019
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 67 =====
+Mathematical Functions, Characters and Strings
+Focus of this Chapter
+To introduce mathematical functions, characters, string
+objects, and use them to develop programs.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 68 =====
+Mathematical Functions, Characters and Strings
+Mathematical Functions
+What is a method?
+A group of statements that perform a speciﬁc task
+Java provides many useful methods in the Math class for
+performing common mathematical functions.
+These methods for mathematical functions can be grouped
+into:
+Trigonometric methods,
+Exponent methods, and
+Service methods (rounding, min, max, abs, and random methods)
+The Math class provides two double constants, PI and E which
+can be used as Math.PI and Math.E in any program
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 69 =====
+Mathematical Functions, Characters and Strings
+Mathematical Functions
+Trigonometric Functions
+These are methods for performing trigonometric functions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 70 =====
+Mathematical Functions, Characters and Strings
+Mathematical Functions
+Trigonometric Functions
+Write a program that displays the sin, cos and tan of 30
+degrees
+Is the value same as what your calculator returns?
+Such trigonometric take radians as input.
+Watch out for the type of input required, and convert
+appropriately.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 71 =====
+Mathematical Functions, Characters and Strings
+Mathematical Functions
+Exponent Functions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 72 =====
+Mathematical Functions, Characters and Strings
+Mathematical Functions
+Exponent Functions
+Write a program that displays the natural log of 45, square root of
+29 and 5 65
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 73 =====
+Mathematical Functions, Characters and Strings
+Mathematical Functions
+Service Functions - Rounding Methods
+These are methods for rounding numbers
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 74 =====
+Mathematical Functions, Characters and Strings
+Mathematical Functions
+Service Functions - Rounding Methods
+- Write a program that displays that rounds 4.53 and -3.1 using the
+ceil, ﬂoor and round methods.
+- Write a Java program that divides 2 by 6 and return the answer in
+two decimal places
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 75 =====
+Mathematical Functions, Characters and Strings
+Mathematical Functions
+Service Functions - The min, max, and abs Methods
+These are for ﬁnding the:
+Maximum value among a given set
+E.g. Math.max(2.4,-5.4)
+Minimum value among a given set
+E.g. Math.min(-5.4, 4.1)
+Absolute value of a given number
+E.g. Math.abs(-5.4)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 76 =====
+Mathematical Functions, Characters and Strings
+Mathematical Functions
+Service Functions - The min, max, and abs Methods
+Write a program that displays that returns:
+1 The maximum value for the set (-2.1, -1.5, -0.6)
+2 The minimum value for the set (-2.1, -1.5, -0.6)
+3 The absolute value for -1.51 and 1.51
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 77 =====
+Mathematical Functions, Characters and Strings
+Mathematical Functions
+Service Functions - The random Method
+The method Math.random():
+1 Generates a random double value greater than or equal to 0.0
+and less than 1.0
+To generate a random integer with the Math.random():
+Between 0 and n : (int)(Math.random()* (n+1))
+E.g. (int)(Math.random()* 10) generates random integers
+between 0 and 9
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 78 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+Unicode and ASCII code
+Computers use binary numbers internally.
+Characters are stored in computers as a sequence of 0s and 1s.
+Popularly referred to as encoding1
+The Unicode scheme and ASCII code scheme are two ways to
+encode a character.
+1Mapping a character to its binary representation
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 79 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+The Unicode Scheme
+An encoding scheme established by the Unicode Consortium to
+support the interchange, processing, and display of written
+texts in the world’s diverse languages
+Originally designed as a 16-bit character encoding to handle
+the 65,536 characters possible in a 16-bit.
+Currently extended to allow up to 1,112,064 characters.
+Those characters that go beyond the original 16-bit limit are
+called supplementary characters
+Java supports both the original and supplementary unicode
+characters
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 80 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+The ASCII Scheme
+An 8-bit encoding scheme for representing all uppercase and
+lowercase letters, digits, punctuation marks, and control
+characters.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 81 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+Commonly Used ASCII code and their Unicode Values
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 82 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+Declaring a Character in Java
+Similar to String declaration but with single quotations marks
+(‘’)
+char letter = ‘B’; in Java will assign the character B to the
+variable letter
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 83 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+Escape Sequences for Special Character in Java
+Java uses a special notation (escape sequence) to represent
+special characters.
+The escape sequence consists of a:
+Backslash ( /slash.right) followed by a character or a combination of digits
+E.g. /slash.rightt is the escape sequence for the Tab character
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 84 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+Escape Sequences for Special Character in Java
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 85 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+Escape Sequences for Special Character in Java
+Write a Java statement that prints out the following:
+John said ‘Java is fun and easy’
+John said “Java is fun and easy”
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 86 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+Casting Between char and Numeric Types
+A char can be cast into any numeric type, and vice versa
+When an integer is cast into a char, only its lower 16 bits of
+data are used; the other part is ignored.
+E.g char ch = (char)0XAB0041
+The lower 16 bits hex code 0041 is assigned to ch
+When a ﬂoating-point value is cast into a char, the
+ﬂoating-point value is ﬁrst cast into an int, which is then cast
+into a char
+When a char is cast into a numeric type, the character’s
+Unicode is cast into the speciﬁed numeric type
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 87 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+Casting Between char and Numeric Types
+Implicit casting can be used if the result of a casting ﬁts into
+the target variable, else explicit casting must be used.
+Implicit: byte b = ‘a’;
+Explicit: byte b = (byte)‘ /slash.rightuFFF4’; because /slash.rightuFFF4 exceeds
+the byte range
+Write a Java statement which converts the following numeric types
+into characters: 99, 225.
+Write a Java statement which converts the following characters
+into integers: A, !, *, i.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 88 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+Comparing and Testing Characters
+Characters can be compared using the relational operators just
+like comparing two numbers.
+Comparison is done using the Unicodes of the two characters.
+As such:
+’a’ < ’b’ will return true since in Unicode; ‘a’ = 97 and ‘b’ = 98
+’a’ < ’A’ will return false since in Unicode; ‘a’ = 97 and ‘A’ = 65
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 89 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+Comparing and Testing Characters - Other Character Methods
+E.g: Given, char ch = ‘a’;
+System.out.println(Character.toUpperCase(ch)); will printout A.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 90 =====
+Mathematical Functions, Characters and Strings
+The String Data Type
+The String Data Type
+The String data type is used to represent a string of characters
+E.g String studentName = “John Robertson”;
+Java provides the following methods for manipulating strings
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 91 =====
+Mathematical Functions, Characters and Strings
+The String Data Type
+The String Data Type - Getting the length of a String
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 92 =====
+Mathematical Functions, Characters and Strings
+The String Data Type
+The String Data Type - Reading String from Console
+We have played with the Scanner to read Strings from the console.
+When should the next() and nextLine() in Scanner be used?
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 93 =====
+Mathematical Functions, Characters and Strings
+The String Data Type
+The String Data Type - Getting the length of a String
+The length() returns the number of characters in a string.
+Given, String name =“John Mathews”;
+System.out.println(“The length of ” + name + “ is ”
++name.length());
+will return “The length of John Mathews is 12”
+Given String welcome = “Hello, welcome to Java”, write a Java
+statement to display the length of the variable welcome.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 94 =====
+Mathematical Functions, Characters and Strings
+The String Data Type
+The String Data Type - Getting Characters from a String
+The n.charAt(index) method can be used to retrieve a speciﬁc
+character in a string n where the index is between 0 and
+n.length()-1.
+Given, String name =“John Mathews”;
+System.out.println(name.charAt(5));
+will return M
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 95 =====
+Mathematical Functions, Characters and Strings
+The String Data Type
+The String Data Type - Concatenating Strings
+The concat method is used to concatenate two strings. For
+example:
+String fullName = ﬁrstName.concat(lastName);
+will concatenate ﬁrstName and lastName as the fullName.
+Instead of typing concat, you can always use the plus(+)
+operator to concatenate. For example:
+String fullName = ﬁrstName +“ ”+ lastName;
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 96 =====
+Mathematical Functions, Characters and Strings
+The String Data Type
+The String Data Type - Converting and Trimming Strings
+The toLowerCase() method returns a new string with all
+lowercase letters
+The toUpperCase() method returns a new string with all
+uppercase letters.
+The trim() method returns a new string by eliminating
+whitespace characters from both ends of the string
+For example, given, String name = “ John ”;
+name.toLowerCase() will return “ john ”
+name.toUpperCase() will return “ JOHN ”
+name.trim() will return “John”
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 97 =====
+Mathematical Functions, Characters and Strings
+The String Data Type - Comparing Strings
+The String class contains the following methods for comparing
+strings
+Assignment: Learn to compare two strings based on the above table
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 98 =====
+Mathematical Functions, Characters and Strings
+The String Data Type - Obtaining Substrings
+A Practical Assignment for students, will be marked at our next
+lecture.
+The String Data Type - Conversion between Strings and
+Numbers
+A Practical Assignment, will be marked at our next lecture.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 99 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 100 =====
+Programming with Java
+CE 277
+Course Lecturer: Vincent M. Nofong, Ph.D.
+Computer Science and Engineering Department
+University of Mines and Technology, Tarkwa - Ghana
+February 21, 2019
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 101 =====
+Selections and Loops
+Selections
+The if Statements
+An if statement is a construct that enables a program to
+specify alternative paths of execution.
+Java has several types of selection statements:
+one-way if statements
+two-way if-else statements,
+nested if statements
+multi-way if-else statements
+switch statements, and
+conditional expressions.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 102 =====
+Selections and Loops
+Selections
+The one-way if Statements
+A one-way if statement executes an action if and only if the
+condition is true
+If the condition is false, nothing is done
+The syntax for a one-way if statement is:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 103 =====
+Selections and Loops
+Selections
+The one-way if Statements
+If the one-way if statement contains just one statement, the
+the block braces can be omitted as shown below.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 104 =====
+Selections and Loops
+Selections
+The one-way if Statements
+Using one-way if statements only, write a Java program which takes
+an integer as input and prints out if the number is odd or even
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 105 =====
+Selections and Loops
+Selections
+The two-way if-else Statements
+An if-else statement decides the execution path based on
+whether the condition is true or false.
+The syntax for a two-way if-else statement is:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 106 =====
+Selections and Loops
+Selections
+The two-way if-else Statements
+Using the two-way if-else statements, write a Java program which
+takes an integer as input and prints out if the number is even or
+odd.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 107 =====
+Selections and Loops
+Selections
+The Nested if and Multi-way if-else Statements
+An if statement can be inside another if statement to form a
+nested if statement.
+The inner if statement is said to be nested inside the outer if
+statement.
+There is no limit to the depth of the nesting.
+The multi-way if-else statements are used when there
+alternative conditions to be tested.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 108 =====
+Selections and Loops
+Selections
+The Nested if and Multi-way if-else Statements
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 109 =====
+Selections and Loops
+Selections
+Logical Operators
+The logical operators shown below can be used to create
+compound conditions in if and if-else statements
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 110 =====
+Selections and Loops
+Selections
+Multi-way if-else Statements with Logical Operators
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 111 =====
+Selections and Loops
+Selections
+The Nested if and Multi-way if-else Statements
+Write a Java program which takes marks as a double and returns
+the class range of the student as follows:
+mark ≥ 80.0 “First class”
+70.0 ≤ mark < 80.0 “Second class Upper”
+60.0 ≤ mark < 70.0 “Second class lower”
+50.0 ≤ mark < 60.0 “Pass”
+mark < 50.0 “Fail”
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 112 =====
+Selections and Loops
+switch Statements
+A switch statement executes statements based on the value of a
+variable or an expression.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 113 =====
+Selections and Loops
+switch Statements
+The syntax for the switch statement is as follows:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 114 =====
+Selections and Loops
+switch Statements
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 115 =====
+switch Statements
+Given the Chinese Zodiac sign above, write a Java program (using
+switch statements) which accepts a user input and returns the
+Zodiac animal for the respective year.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 116 =====
+Selections and Loops
+Selections
+if-else Statements vs switch Statements
+Deciding on whether to use if-else statements or a switch
+statement is based on readability and the expression that the
+statement is testing.
+While an if-else statement can test expressions based on
+ranges of values or conditions, a switch statement tests
+expressions based only on a single integer, enumerated value,
+or String object.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 117 =====
+Selections and Loops
+Loops
+Loops
+Loops can be used to tell a program to execute statements
+repeatedly.
+Java provides three types of loop statements:
+1 while loops
+2 do-while loops
+3 for loops
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 118 =====
+Selections and Loops
+Loops
+The while Loop
+A while loop executes statements repeatedly while the
+condition is true.
+The syntax for the while loop is as follows:
+The loop continuation condition is checked ﬁrst before the
+statements are executed
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 119 =====
+Selections and Loops
+Loops
+The while Loop
+The following is an example of a while loop which prints 10 lines of
+the statement ”Welcome to Java while loop”
+Using the while loop, write a Java code which prints out the ﬁrst 5
+multiples of 2.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 120 =====
+Selections and Loops
+Loops
+The do-while Loop
+The do-while loop is the same as a while loop except that it
+executes the loop body ﬁrst and then checks the loop
+continuation condition
+The syntax for the do-while loop is as follows:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 121 =====
+Selections and Loops
+Loops
+The do-while Loop
+The following is an example of a do-while loop which prints 10
+lines of the statement ”Welcome to Java do-while loop”
+Using the do-while loop, write a Java code which ﬁnds the sum of
+the ﬁrst 8 integers.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 122 =====
+Selections and Loops
+Loops
+The for Loop
+A for loop performs an initial action once, then repeatedly
+executes the statements in the loop body, and performs an
+action after an iteration when the loop-continuation-condition
+evaluates to true
+The syntax for the for loop is as follows:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 123 =====
+Selections and Loops
+Loops
+The for Loop
+The following are two examples of for loops which both print 10
+lines of the statement ”Welcome to Java for loop”
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 124 =====
+Selections and Loops
+Loops
+The for Loop
+Using the for loop, write a Java code which ﬁnds the sum of the
+ﬁrst 10 integers.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 125 =====
+Selections and Loops
+Loops
+Which Loop to Use?
+You can use a for loop, a while loop, or a do-while loop,
+whichever is convenient.
+The three forms of loop statements - while, do-while, and for -
+are expressively equivalent
+That is, you can write a loop in any of these three forms
+Note:
+The while loop and for loop are called pretest loops because
+the continuation condition is checked before the loop body is
+executed.
+The do-while loop is called a posttest loop because the
+condition is checked after the loop body is executed
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 126 =====
+Selections and Loops
+Loops
+Nested Loops
+A loop can be nested inside another loop
+Nested loops consist of an outer loop and one or more inner
+loops.
+Each time the outer loop is repeated, the inner loops are
+re-entered, and started anew.
+Practice when you get back to your halls/hostels/homes.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 127 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 128 =====
+Programming with Java
+CE 277
+Course Lecturer: Vincent M. Nofong, Ph.D.
+Computer Science and Engineering Department
+University of Mines and Technology, Tarkwa - Ghana
+March 4, 2019
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 129 =====
+Exception Handling and Input/Output
+Exception Handling
+What is an Exception?
+An exception indicates a problem that occurs while a program
+executes.
+By the name “exception” it indicates the problem doesn’t
+occur frequently.
+That is, under normal circumstances, the “rule” is that a statement
+normally executes correctly, the problem when the rule doesn’t
+execute normally thus represents “an exception to the rule”
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 130 =====
+Exception Handling and Input/Output
+Exception Handling
+Why Exception Handling?
+To ensure robust and fault tolerant programs can be written
+that can deal with problems and continue executing or
+terminate gracefully.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 131 =====
+Exception Handling and Input/Output
+Exception Handling
+When to use Exception Handling?
+Division by zero
+Invalid method parameters
+Out-of-range array indices
+Arithmetic overﬂow - that is, a value outside the representable
+range of values
+Thread interruption
+etc.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 132 =====
+Exception Handling and Input/Output
+Exception Handling
+Exception Types
+Exceptions are objects, and objects are deﬁned using classes.
+The root class for exceptions is java.lang.Throwable.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 133 =====
+Exception Types
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 134 =====
+Exception Handling and Input/Output
+Exception Handling
+Catching Exceptions - Syntax
+Exceptions are handled using the try/catch statements.
+The try block : Contains the statements that may cause an
+exception in your code that you are willing to handle.
+The catch block : Contains the handler for an exception type
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 135 =====
+Exception Handling and Input/Output
+Exception Handling
+Catching Exceptions - Syntax
+The general syntax for handling exceptions is as follows:
+Note: There may be more than one catch blocks in handling
+exceptions. What of the ﬁnally block? Assignment
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 136 =====
+Exception Handling and Input/Output
+Exception Handling
+Handling Arithmetic Exceptions
+A typical Arithmetic Exception is dividing an integer by zero.
+What of dividing a ﬂoating point number by zero? - This will
+not throw an arithmetic exception.
+Positive ﬂoating point division by zero = positive inﬁnity
+Negative ﬂoating point division by zero = negative inﬁnity
+Floating point zero division by zero = NaN 1
+1Not a Number, which means the result is undeﬁned mathematically
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 137 =====
+Exception Handling and Input/Output
+Exception Handling
+Handling Arithmetic Exceptions - Practicals
+Write a Java program which takes inputs x and y from the user
+and returns z given as, z = x
+y .
+What happens if the user enters zero for y?
+What happens if the user enters a string for either x or y
+instead of a number?
+Let us catch some exceptions!!
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 138 =====
+Exception Handling and Input/Output
+Handling Arithmetic Exceptions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 139 =====
+Exception Handling and Input/Output
+Handling Arithmetic Exceptions - Possible Exceptions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 140 =====
+Exception Handling and Input/Output
+Handling Arithmetic Exceptions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 141 =====
+Exception Handling and Input/Output
+Handling Arithmetic Exceptions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 142 =====
+Exception Handling and Input/Output
+Handling Arithmetic Exceptions - Allowing User Re-enter Values
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 143 =====
+Exception Handling and Input/Output
+Exception Handling
+Handling Arithmetic Exceptions
+What happens if we use double instead of int?
+Learn what the ﬁnally block in exception handling does.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 144 =====
+Exception Handling and Input/Output
+Exception Handling
+Handling Arithmetic Exceptions
+Write a Java program which takes inputs x and y (as double) from
+the user and returns z (as a double) given as, z = x
+y . Ensure your
+program is able to handle the arithmetic exception in evaluating z.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 145 =====
+Exception Handling and Input/Output
+Handling InputMismatch Exceptions
+Possible InputMismatch Exceptions: Previous Code
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 146 =====
+Exception Handling and Input/Output
+Handling InputMismatch Exceptions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 147 =====
+Exception Handling and Input/Output
+Handling InputMismatch Exceptions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 148 =====
+Exception Handling and Input/Output
+Handling InputMismatch Exceptions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 149 =====
+Exception Handling and Input/Output
+Handling InputMismatch Exceptions
+Practicals: Handle the InputMismatch Exception at the remaining
+input
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 150 =====
+Exception Handling and Input/Output
+The File Class
+The File class contains the methods for:
+Obtaining the properties of a ﬁle/directory, and
+Renaming and deleting a ﬁle/directory.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 151 =====
+Exception Handling and Input/Output
+The File Class
+The syntax for declaring a ﬁle is as follows:
+Checking some possible ﬁle manipulations:
+1 Declare a ﬁle, E.g. File in = new File (”Test.txt”);
+2 In Eclipse, Type in. and scroll through the IntelliSense (press
+the Control and Space Keys together if the IntelliSense doesn’t
+pop-up).
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 152 =====
+Exception Handling and Input/Output
+File Input and Output - Reading Data with the Scanner
+Create a Text ﬁle named Test.txt with the following details on your
+desktop.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 153 =====
+Exception Handling and Input/Output
+File Input and Output - Reading Data with the Scanner
+To read the created Test.txt in Java, we can use the Scanner
+however, we have to declare Test.txt as a variable of type File.
+How?
+How: File in = new File (”Test.txt”);
+The content of the ﬁle can now be read with the Scanner as follows:
+Scanner input = new Scanner (in);
+The content of the ﬁle can now be read with the scanner
+variable “input”
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 154 =====
+Exception Handling and Input/Output
+File Input and Output - Reading Data with the Scanner
+Practicals
+Write a Java program to read the content of the Test.txt ﬁle you
+created and print out the content in the console.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 155 =====
+Exception Handling and Input/Output
+File Input and Output - Reading Data with the Scanner
+Practicals
+Write a Java program to read the content of the Test.txt ﬁle you
+created and print out the content and their respective types
+(integer, boolean, string or double ) in the console.
+E.g:
+String: Name
+boolean: true
+double: 26.1
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 156 =====
+Exception Handling and Input/Output
+File Input and Output - Writing Data with the PrintWriter
+PrintWriter class can be used to create a ﬁle and write data to
+a text ﬁle.
+A PrintWriter object for a text ﬁle can be created as follows:
+The Content to be written in the created ﬁle can be done using the
+syntax:
+output.println(Content); or output.print(Content)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 157 =====
+Exception Handling and Input/Output
+File Input and Output - Writing Data with the PrintWriter
+PrintWriter class can be used to create a ﬁle and write data to
+a text ﬁle.
+A PrintWriter object for a text ﬁle can be created as follows:
+Remember to always close your PrintWriter after usage
+E.g: output.close();
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 158 =====
+Exception Handling and Input/Output
+File Input and Output - Reading Data with the Scanner
+Practicals
+Write a Java program to read the content of the Test.txt ﬁle you
+created and re-write the content all in CAPS to a new text ﬁle
+called Out.txt.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 159 =====
+Exception Handling and Input/Output
+File Input - Reading Data from the Web with Scanner
+Just like you can read data from a ﬁle on your computer, you
+can read data from a ﬁle on the Web.
+To read the content from a Web ﬁle, you ﬁrst of all create the
+URL object.
+The syntax to create a URL object is:
+The scanner can now be used to read the content of the URL
+as: Scanner input = new Scanner(url.openStream());
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 160 =====
+Practicals: Write a program to read the content on the ﬁle for
+UMaT’s website’s home page. Your code should look something
+like this.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 161 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 162 =====
+Programming with Java
+CE 277
+Course Lecturer: Vincent M. Nofong, Ph.D.
+Computer Science and Engineering Department
+University of Mines and Technology, Tarkwa - Ghana
+April 1, 2019
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 163 =====
+Data Structures in Java
+Why Data Structures?
+Data structures are used in almost every program or software
+Data structures are essential ingredients of many eﬃcient
+algorithms
+Some data structures are highly specialised for speciﬁc tasks.
+They help in writing eﬃcient codes to solve problems in
+optimal or near optimal ways.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 164 =====
+Data Structures in Java
+What will be discussed
+1 Arrays
+Single dimensional arrays
+Multidimensional arrays
+2 ArrayLists
+3 Lists - read on your own
+4 Sets and Maps
+Hashsets
+Hashmaps
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 165 =====
+Data Structures in Java
+Single Dimensional Arrays
+Arrays - Basics
+An array is a group of variables containing values of the same
+type.
+A single array variable can reference a large collection of data
+of the same type.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 166 =====
+Data Structures in Java
+Single Dimensional Arrays
+Arrays - Declaring Array Variables
+The syntax for declaring array variables is as follows:
+This declaration above does not allocate any space in memory
+for the array, only a storage location is created for the
+reference to the array marks
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 167 =====
+Data Structures in Java
+Single Dimensional Arrays
+Arrays - Creating Arrays
+The syntax for creating an array is as follows:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 168 =====
+Data Structures in Java
+Arrays - Creating Arrays
+The code double [ ] marks = new double [10] in the previous slide
+creates an array called marks to store doubles with the following
+structure:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 169 =====
+Data Structures in Java
+Arrays - Creating Arrays
+The syntax to assign a value to an index of an array is as follows:
+arrayReference [index] = value;. E.g: marks [7] = 86; as shown
+below will assign the value 86 to index 7 of marks.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 170 =====
+Data Structures in Java
+Arrays - Creating Arrays
+The values to an array can be initialized in various ways:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 171 =====
+Data Structures in Java
+Arrays - Accessing Array Elements
+The values in an array can be accessed as follows:
+variableType = arrayReference[index];
+Example: double getMark = newMarks[1];
+Returns 76.0 from newMarks in the previous slide.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 172 =====
+Data Structures in Java
+Single Dimensional Arrays
+Arrays - Creating Arrays Practicals
+Create a single dimensional array of integers and assign the ﬁrst 10
+positive integers to your array
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 173 =====
+Data Structures in Java
+Single Dimensional Arrays
+Arrays - Creating Arrays Practicals
+Create a single dimensional array of strings and assign 10 strings to
+your array
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 174 =====
+Data Structures in Java
+Arrays - Creating Arrays Practicals
+Create an array of doubles and using a for loop, assign the ﬁrst 5
+multiples of 2 to your array.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 175 =====
+Data Structures in Java
+Single Dimensional Arrays
+Arrays - Processing Arrays
+Displaying arrays:
+1 All content of an array can be printed out as follows:
+System.out.println(Arrays.toString(marks));
+2 Content of the array can be displayed by printing out each element
+using a loop.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 176 =====
+Data Structures in Java
+Arrays - Processing Arrays
+Finding the largest and least elements:
+1 Largest element: An example:
+2 Least element: An example:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 177 =====
+Data Structures in Java
+Arrays - Processing Arrays
+Sorting Arrays: Some ways of sorting single dimensional arrays:
+1 Arrays.sort(arrayReference); sorts entire array in ascending order
+2 Arrays.sort(arrayReference, Index1, Index2); sorts array from Index1
+to Index2 in ascending order
+E.g: Arrays.sort(marks); and Arrays.sort(marks, 2, 5);
+Summing all elements - practicals
+Shifting/re-arranging elements - Learn to do that
+Looping without indexing
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 178 =====
+Data Structures in Java
+Single Dimensional Arrays
+Arrays - Processing Arrays
+Copying arrays - assignment
+Searching arrays - assignment
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 179 =====
+Data Structures in Java
+Multidimensional Arrays
+Multidimensional Arrays - Two Dimensional Arrays
+A two-dimensional array consists of an array of one-dimensional
+arrays
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 180 =====
+Data Structures in Java
+Multidimensional Arrays
+Multidimensional Arrays - Two Dimensional Arrays
+The syntax for declaring a two-dimensional array variable is as
+follows:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 181 =====
+Data Structures in Java
+Multidimensional Arrays
+Multidimensional Arrays - Two Dimensional Arrays
+The syntax to assign a value to an index of a two dimensional array
+is as follows: arrayReference[index1][index2] = value;
+E.g.:marks1 [2][1] = 89; will assign 89 to row 3 column 2 as shown
+below.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 182 =====
+Data Structures in Java
+Multidimensional Arrays
+Multidimensional Arrays
+The values to a multidimensional array can be initialized similar to
+the single dimensional arrays
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 183 =====
+Data Structures in Java
+Multidimensional Arrays
+Arrays - Accessing Array Elements
+The values in an array can be accessed as follows:
+variableType = arrayReference[index1][index2];
+Example: double getMark = newMarks2[1][1];
+Returns 88.0 from newMark2 in the previous slide.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 184 =====
+Data Structures in Java
+Multidimensional Arrays
+Arrays - Processing Arrays
+Displaying arrays:
+1 All content of a multidimensional array can be printed out as follows:
+System.out.println(Arrays.deepToString(marks))
+2 Looping through the array to print out each single dimensional array:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 185 =====
+Data Structures in Java
+Multidimensional Arrays
+Arrays - Processing Arrays
+Displaying arrays:
+Content of a multidimensional array can be displayed by printing out
+each element using a nested for loop. E.g: for the 2 by 2 array marks,
+its content can be printed out as:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 186 =====
+Data Structures in Java
+Multidimensional Arrays
+Arrays - Practicals
+Create a two dimensional array of type double having 5 rows and 2
+columns and insert values to all its indexes and printout the content
+in the array.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 187 =====
+Data Structures in Java
+Multidimensional Arrays
+Arrays - Sorting Multidimensional Arrays - By A Column
+The Hard Way
+Write the sorting code yourself, compare the elements in the
+column to be sorted and keep swapping rows till sorting is
+complete.
+Let us sort on the board before we look at the code.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 188 =====
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 189 =====
+Data Structures in Java
+Multidimensional Arrays
+Arrays - Sorting Multidimensional Arrays - By A Column
+The Easy - Hard Way
+Let Java do the sorting, similar to sorting single dimensional
+arrays, but a bit complex.
+Sort the 5 by 2 multidimensional array you created.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 190 =====
+Data Structures in Java
+Array Lists
+Array Lists
+An Array List is a collection class used to store groups of
+related objects in memory
+Advantages of Array Lists:
+Unlike arrays, Array Lists can grow (when the size is exceeded)
+and shrink (when objects are removed) when needed.
+The ArrayList class provides methods for common tasks (e.g:
+inserting or removing items)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 191 =====
+Data Structures in Java
+Array Lists
+Array Lists
+The syntax for declaring an Array List variable is as follows:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 192 =====
+Data Structures in Java
+Array Lists
+Array Lists - Some Methods for Common functions
+add: This method adds an element to the end of the ArrayList.
+E.g: studentNames.add(“John Addo”); will add John Addo to
+the end of studentNames created in the previous slide.
+clear: Removes all the elements from the ArrayList. E.g
+studentNames.clear(); will remove all elements from
+studentNames.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 193 =====
+Data Structures in Java
+Array Lists
+Array Lists - Remaining Methods and Functions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 194 =====
+Data Structures in Java
+Array Lists
+Array Lists - Displaying Content
+The content of an ArrayList can be displayed by:
+Printing out the whole ArrayList. E.g
+System.out.println(studentNames);
+By printing out each element in the ArrayList one at a time.
+E.g:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 195 =====
+Data Structures in Java
+Array Lists
+Array Lists - Practicals
+Create an ArrayList and insert the following into the arraylist: John,
+Mike, Ama, 20.34, Daniel.
+Print out the size of the arraylist created
+Print out the content of the arraylist
+Remove 20.34 from the arraylist using the remove method
+Print out the size of the arraylist again
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 196 =====
+Data Structures in Java
+Practicals
+Create an Array List of String and add four names to it.
+Create an Array List of integers and add the ﬁrst four
+multiples of three to it.
+Create an Array List of doubles and add the ﬁve doubles to it.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 197 =====
+Data Structures in Java
+Array Lists
+Array Lists - Practicals
+ArrayList can be sorted using:
+Collections.sort(ArrayListName):
+E.g: Collections.sort(names)
+ArrayList can be reversed using:
+Collections.reverse(ArrayListName):
+E.g: Collections.reverse(names)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 198 =====
+Data Structures in Java
+Practicals
+Create a text ﬁle of integers (one integer per line), write a Java
+code to read the text ﬁle and assign the content to an array of
+integers.
+Hint 1: Read the content of the text ﬁle into an arraylist, use the
+size of the arraylist to declare your array size, transfer the content
+of the arraylist to the array of integers.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 199 =====
+Data Structures in Java
+Sets
+Java provides three classes of Set:
+HashSet- focus of this class
+LinkedHashSet - learn on your own
+TreeSet - learn on your own
+Any instance of a Set contains no duplicate elements
+That is, given S as a set, no two elements e1 and e2 can be in
+S such that e1.equals(e2)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 200 =====
+Data Structures in Java
+Sets
+HashSet:
+Can be used to store duplicate-free elements of the same type
+Sets are useful in mathematical process such as ﬁnding the
+union, intersection or set subtraction between two sets
+The syntax for declaring a HashSet is as follows:
+Set <elementType> hashsetRef = new HashSet <String>();
+E.g: Set <String> stdNames = new HashSet <String>();
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 201 =====
+Data Structures in Java
+Sets
+HashSet:
+Content can be added to a HashSet using:
+add: To add one element to a set.
+E.g: stdNames.add(”John”);
+addAll: To add all element of one set to another
+E.g.: stdNames.addAll(stdOldNames);
+where stdOldNames is another set of type String.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 202 =====
+Data Structures in Java
+Sets
+HashSet:
+Content can be removed from a HashSet using:
+remove: To remove an element to a set.
+E.g: stdNames.remove(”John”);
+removeAll: To remove all element of one set from another
+E.g.: stdNames.removeAll(stdOldNames);
+where stdOldNames is another set of type String.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 203 =====
+Data Structures in Java
+Sets
+HashSet: Content of a HashSet can be displayed as:
+System.out.println(stdNames);
+Some set operations:
+Union of set A and B : E.g: A.addAll(B);
+Intersection of set A and B : E.g: A.retainAll(B);
+Subtract set B from A : E.g: A.removeAll(B);
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 204 =====
+Data Structures in Java
+Sets
+HashSet - Practicals :
+Create two HashSets of Strings and add the following to each set:
+First set: ”John, Mike, Clement, 20.5, Isaac”
+Second set: ”John, Alice, Mary, Clement, Ama”
+1 Remove ”20.5” from the ﬁrst set
+2 Print the union of the two sets
+3 Print out the intersection of the two sets
+4 Print out the subtraction of the second set from the ﬁrst set.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 205 =====
+Data Structures in Java
+Maps
+Maps:
+A map is a container object that stores a collection of
+key/value pairs.
+For each key, the map stores the corresponding value
+A map cannot contain duplicate keys.
+A key and its corresponding value form an entry stored in a
+map
+The keys in maps are like indexes
+Maps enable fast retrieval, deletion, and updating of the pair
+through the key.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 206 =====
+Data Structures in Java
+Maps
+Maps: Java provides three classes of Maps
+HashMap - focus of this class
+LinkedHashMap, and
+TreeMap
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 207 =====
+Data Structures in Java
+HashMaps:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 208 =====
+Data Structures in Java
+HashMaps:
+HashMaps cannot have duplicate keys.
+The syntax for declaring a HashMap is as follows:
+Map<keyElementType, valueElementType> mapReference =
+new HashMap <>();
+E.g: Map <String, Integer > stdMap = new HashMap <>();
+This creates a HashMap with key type as string and corresponding
+value type as an integer.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 209 =====
+Data Structures in Java
+HashMaps:
+The syntax for inserting content in a HashMap is as follows:
+mapReference.put(keyElementType, valueElementType);
+E.g: Given Map <String, Integer > stdMap = new HashMap <>();
+stdMap.put(”John Mensah”, 39);
+Will insert John Mensah as key with corresponding value of 39
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 210 =====
+Data Structures in Java
+HashMaps:
+All content in a HashMap can be printed out as follows:
+System.out.println(mapReference);
+E.g: System.out.println(stdMap);
+You can iterate through the HashMap and print out the key and
+corresponding values as follows:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 211 =====
+Data Structures in Java
+HashMaps and HashSets :
+Order in which items are put in HashMaps or HashSets are not
+the order in which they are stored
+Practicals
+Create a HashMap and insert the following student index numbers
+and corresponding marks in the HashMap
+1 42200213: 89
+2 42225413: 65
+3 42234513: 89
+4 42233413: 78
+Print out the content of the hashmap in the console
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 212 =====
+Data Structures in Java
+Things to try your hands on for practical quiz:
+File creation,
+Writing content to ﬁle
+File content reading,
+Arrays
+Array Lists
+HashSets
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 213 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 214 =====
+Programming with Java
+CE 277
+Course Lecturer: Vincent M. Nofong, Ph.D.
+Computer Science and Engineering Department
+University of Mines and Technology, Tarkwa - Ghana
+April 2, 2019
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 215 =====
+Classes and Objects
+Why Classes and Objects?
+Classes and objects provide a way to organise your code into
+generic, reusable pieces.
+Methods and properties can be made private, so other
+programmers don’t have to know anything about the class or
+object, they simply have to know what services the object
+oﬀers and how to access them.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 216 =====
+Classes and Objects
+Why Object Oriented Programming?
+Easier to maintain and modify code
+New objects can be created with small diﬀerence to existing ones
+Allows creation of new data types that are not already deﬁned
+Makes development and maintenance easier as project size
+grows
+Enables eﬀective development of large scale software and GUIs
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 217 =====
+Classes and Objects
+What are Objects?
+These are basic runtime entities in object oriented systems
+An object represents an entity that can be distinctively
+identiﬁed
+E.g: A student, a box, a circle, a dog, loan, etc.
+Objects often have unique identities, states and behaviours.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 218 =====
+Classes and Objects
+Features of Objects
+State:
+This is represented by the data ﬁelds with their current values.
+E.g: A rectangle has data ﬁelds of length and breadth (the properties
+which characterise the rectangle)
+What of a student at UMaT as an object?
+Behaviour:
+The behaviour of an object is deﬁned by methods
+E.g: For the object rectangle, methods like getArea(), setLength(),
+setBreadth() and so on can be created and invoked to ask the object
+perform a function.
+Methods for a student at UMaT as an object?
+Methods for a loan as an object?
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 219 =====
+Classes and Objects
+What is a Class?
+A class is a collection of objects of similar type.
+A class is a template that deﬁnes what an object data ﬁelds
+and methods will be.
+Once a class is created any number of objects can be created
+(instantiated).
+Classes provide special methods and types (constructors)
+which are invoked to create new objects.
+A Java class uses variables to deﬁne data ﬁelds and methods
+to deﬁne actions.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 220 =====
+Classes and Objects
+Deﬁning a Class
+Take the case of writing a Java program to compute the areas and
+volumes of rectangular boxes with diﬀerent parameters:
+With object oriented approach, a class of rectangular boxes
+can be created.
+Objects (instances) of the class rectangular box can then be
+created for each distinct rectangular box.
+Let us learn to create some classes
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 221 =====
+Classes and Objects
+Deﬁning a Class - A Class of Rectangular Boxes
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 222 =====
+Classes and Objects
+Deﬁning a Class - A Class of Rectangular Boxes
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 223 =====
+Classes and Objects
+Deﬁning a Class - A Class of Rectangular Boxes
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 224 =====
+Deﬁning a Class - A Class of Rectangular Boxes
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 225 =====
+Deﬁning a Class - A Class of Rectangular Boxes
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 226 =====
+Deﬁning a Class - A Class of Rectangular Boxes
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 227 =====
+Classes and Objects
+Constructing Objects with Constructors from a Class.
+What is a Constructor?
+A constructor is a special kind of method which is invoked to create
+an object using the new operator.
+Characteristics of constructors:
+Must have same name as the class itself
+They do not have return types
+They are invoked using the new operator when an object is
+created.
+A look at the previous rectangular class: which ones are
+constructors?
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 228 =====
+Deﬁning a Class - A Class of Rectangular Boxes
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 229 =====
+Classes and Objects
+Accessing Objects via Reference Variables
+The Object class can be:
+A separate class ﬁle in the same or diﬀerent project
+On the same class ﬁle as the ﬁle with the main class
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 230 =====
+Classes and Objects
+Accessing Objects via Reference Variables
+To use an object’s data and methods for any given object
+class, the class object variable has to be declared:
+ClassName ObjectRefVariable;
+E.g. from the previous rectangular box class:
+rectangular newRectangular;
+newRectangular is the object variable which can reference a
+rectangular object
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 231 =====
+Classes and Objects
+Accessing Objects via Reference Variables
+A single statement can be used to combine the declaration,
+creation and assignment of an object reference using the
+syntax:
+ClassName ObjectRefVariable = new ClassName();
+E.g. rectangular newRectangular = new rectangular();
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 232 =====
+Classes and Objects
+Accessing Object’s Data and Methods
+After an object is created, its data and methods can be
+accessed using the dot ( ●) operator
+Object’s methods and data can be accessed with syntax such
+as:
+ObjectRefVariable.datField;
+E.g rectangular.length
+ObjectRefVariable.method(arguments);
+E.g. rectangular.setLength(13);
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 233 =====
+Classes and Objects
+Static Variables, Constants and Methods
+These are variables, constants or methods declared as static.
+A static variable is shared by all objects of the class
+A static method cannot access the instance members of a class
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 234 =====
+Static Variable, Constants and Methods - Illustration
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 235 =====
+Classes and Objects
+Visibility Modiﬁers
+These are used to modify the visibility of a class and its
+members
+If no visibility modiﬁers, then by default the classes, methods
+and data ﬁelds are accessible by any class in the same package.
+Types of visibility modiﬁers
+Public visibility modiﬁers : Class methods and data ﬁelds
+with this modiﬁer can be accessed from any other class
+Private visibility modiﬁers : Class methods and data ﬁelds
+are only accessible within its class.
+Protected visibility modiﬁers : Reading assignment
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 236 =====
+Classes and Objects
+Data Field Encapsulation
+This is done by making the data ﬁelds private
+This protects the data and makes class easy to maintain.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 237 =====
+Classes and Objects
+The this Reference
+The keyword this refers to an object itself
+It can be used inside a constructor to invoke another
+constructor
+It is often used to reference a class’s hidden data ﬁelds
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 238 =====
+Classes and Objects
+The this Reference - Illustrations
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 239 =====
+Classes and Objects
+The this Reference - Illustrations
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 240 =====
+Classes and Objects
+Inheritance and Polymorphism
+We will treat these two if we have enough time, else student learns
+them on his/her own.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 241 =====
+A Primer to Methods
+Methods
+A method is a collection of statements that are grouped
+together to perform an operation.
+Methods can be used to deﬁne reusable code and organize and
+simplify code
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 242 =====
+A Primer to Methods
+Deﬁning Methods
+A method deﬁnition consists of its method name, parameters,
+return type and body.
+The syntax for deﬁning a method is as follows:
+modiﬁer returnValueType methodName (list of parameters) {
+method body
+}
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 243 =====
+A Primer to Methods
+Deﬁning Methods - Illustration Finding Maximum of Two
+Integers
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 244 =====
+A Primer to Methods
+Methods
+A method can be:
+A separate class ﬁle in the same or diﬀerent project
+On the same class ﬁle as the ﬁle with the main class
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 245 =====
+A Primer to Methods
+Calling/Invoking Methods
+Calling/Invoking methods executes the code in the method.
+The syntax for calling a method is as follows:
+methodName(list of parameters);
+E.g.: From the previous method shown,
+int maxNumber = max(2, 9); calls the method max which
+assigns the maximum value to the variable maxNumber.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 246 =====
+Without Methods: Printing the sum of numbers in a range
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 247 =====
+Using Methods: Printing the sum of numbers in a range
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 248 =====
+A Primer to Methods
+Practicals Playing with Methods
+Methods can also be extracted from your written code using the
+refactor - show illustration on board.
+Create two dimensional arrays of doubles having diﬀerent sizes.
+Write a method in the main class ﬁle that prints out the
+content of each array.
+Write a method in a diﬀerent class ﬁle that ﬁnds the sum of all
+content in each array.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 249 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 250 =====
+Programming with Java
+CE 277
+Course Lecturer: Vincent M. Nofong, Ph.D.
+Computer Science and Engineering Department
+University of Mines and Technology, Tarkwa - Ghana
+April 9, 2019
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 251 =====
+Application Development
+Java Tools for Application Development
+Java Swing
+JavaFx
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 252 =====
+Application Development
+Java Swing vs JavaFx
+Java swing is more stable and proven
+Javafx has more consistent controls
+CSS styling can be used in Javafx
+Javafx has built-in animation systems
+Javafx supports modern touch devices, apps created with raw
+Java swing do not have an appealing look
+Easier to customise looks in Java swing
+Javafx API’s are less consistent
+For this course, we will use Java swing
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 253 =====
+Application Development
+Installing Java Swing WindowBuilder - Eclipse IDE
+1 Click on the “Help” on your IDE
+2 Select “Install New Software”
+3 In the “Work with” select the appropriate URL based on your
+IDE version
+4 From the list of installable software that appears, open the
+“General Purpose Tools” and select the Swing related software
+for installation
+Swing Designer, Swing Designer Documentation, All the SWT
+(Standard Widget Toolkit) components and All the WindowsBuilder
+components
+5 Click on the “Next” to download and install the components.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 254 =====
+Application Development
+Installing JavaFX - Eclipse IDE
+1 Click on the “Help” on your IDE
+2 Select “Install New Software”
+3 In the “Work with” select the appropriate URL based on your
+IDE version
+4 From the list of installable software that appears, open the
+“General Purpose Tools” and select the e(fx)clipse - IDE
+5 Click on the “Next” to download and install the components.
+6 Google, download and install “JavaFX Scene Builder” and
+conﬁgure the path on your Eclipse IDE.
+You can go to http://gluonhq.com/products/scene-builder/
+and follow the installation and conﬁguration instructions.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 255 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+1 Go to File → New →Java Project , and give it a project name
+2 Create a new package in the src folder
+3 In the package created in 2, right click on the package and
+follow the instructions in 4
+4 New → Other → WindowBuilder → Swing Designer →
+Application window
+5 Give a name of your application window, ﬁnish up and you are
+good to go
+Run your application to see how it looks like and where it loads.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 256 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+To set your application to load from the centre of your screen:
+In the void initialize() method, add the following code:
+frame.setLocationRelativeTo(null);
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 257 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+Views in Java Swing
+Code/Source View
+Design View
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 258 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+Views in Java Swing - The Source/Code View
+This view is for writing and reviewing of code (generated code)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 259 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+Views in Java Swing - Design View
+This is the main visual layout consisting of three parts:
+1 The Structure : Displays the components used in your
+program and their properties
+2 The Palette : Provides a quick access to toolkit speciﬁc
+components and any custom components installed by the user.
+3 The Main Window : Gives a visual view of your application -
+where you will be placing the components of your application.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 260 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+Design View - Palette Components
+Layouts
+To ensure your Java program is portable and usable on other
+platforms, Java provides portable layout managers (E.g Absolute
+layout, GridLayout, FlowLayout)
+Advantages of layout managers:
+Correct positioning of components that are independent of screen
+resolution and platform
+Intelligent component placement for containers that are dynamically
+resized at runtime
+Let us play with the Absolute layout, GridLayout and
+FlowLayout
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 261 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+Design View - Palette Components
+Containers: Components which can contain other components
+inside itself. E.g:
+JPanel: A generic lightweight container
+JScrollPane: Provides a scrollable view of a lightweight
+component
+JSplitPane: For displaying two components, either side by
+side or one on top of the other.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 262 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+Design View - Palette Components
+Components: Objects having graphical representation that can be
+displayed on the screen and that can interact with the user. E.g:
+JTextField: A lightweight component that allows the editing
+of single line text.
+JTextArea: A multi-line area that allows the editing of text
+and displays text
+JPasswordField: A component that allows editing of a single
+line text where the view indicates something was typed but
+does not show what was typed.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 263 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+Design View - Palette Components
+Components E.g.:
+JButton: An implementation of a push button
+JComboBox: A component that combines a button or
+editable ﬁeld and a drop-down list
+JCheckBox: An implementation of a check box
+JRadioButton: An implementation of a radio button
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 264 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+Design View - Palette Components
+Menu: Provides a space-saving way to let the user chose one of
+several options. E.g:
+JMenuBar: A menu bar
+JPopupMenu: A pop-up menu
+JMenuItem: A simple menu item
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 265 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+Design View - Palette Components
+Abstract Window Toolkit (A WT) Components :
+These are platform dependent
+Components are displayed according to the view of the
+operating system.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 266 =====
+Application Development
+Creating a Java Swing Project in Eclipse
+Adding Components
+Select the component from the Palette
+Click on the desired location on the form
+Resize/Re-position to your choice
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 267 =====
+Application Development
+Changing Component Properties of a Java Swing Project in
+Eclipse
+1 Select the component
+2 Go to Properties (under Structure)
+3 Change the property of the component that needs to be
+changed
+Aligning Components
+1 Select the component to be aligned
+2 Click on the align icon of your choice to align the component
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 268 =====
+Application Development
+Event Handling - Java Swing Applications
+GUIs are event driven
+That is, normally a user interacts with the GUI to indicate the task
+that the application should perform. E.g clicking the Send button in
+an email application.
+A user interacting with a GUI component thus generates an
+event.
+An event can thus be seen as a change of state of an object.
+Examples:
+Clicking a button, closing a window, moving the mouse,
+Typing in a text ﬁeld, selecting an item from a menu,
+Entering a character through a keyboard, scrolling a page, etc,
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 269 =====
+Application Development
+Event Handling - Java Swing Applications
+The code that performs the task in response to an event is
+called the event handler
+The process of responding the events is known as event
+handling
+Events can be grouped into two categories:
+Foreground events: They require direct interaction of the
+user. E.g clicking a button, moving the mouse
+Background events : These events require interaction with
+the end user. E.g operating system interrupts, software failure,
+timer expiration, etc.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 270 =====
+Application Development
+Adding Event Handlers - Java Swing Applications
+Option 1:
+1 Right click on a component
+2 Select Add event handler
+3 Pick the type of event handler
+4 Write the code to perform the task when the event occurs
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 271 =====
+Application Development
+Adding Event Handlers - Java Swing Applications
+Option 2:
+1 Select a component
+2 Go the Properties (under Structure)
+3 Click on the Show events icon
+4 Pick the event of your choice
+5 Double click on the event
+6 Write the code to perform the task when the event occurs
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 272 =====
+Application Development
+Adding Event Handlers - Java Swing Applications
+Option 3:
+1 Go to the source, hard code the event handler and you are
+good to go.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 273 =====
+Application Development
+Adding Event Handlers - Java Swing Applications
+Practicals: Design and Add Event Handlers to GUI below
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 274 =====
+Application Development
+Adding Event Handlers - Java Swing Applications
+Practicals:Add another Radio Button to the Design for
+Division
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 275 =====
+Application Development
+Creating a Runnable JAR File - Java Swing Applications
+1 Right click on the package containing your GUI application
+2 Select Export → Java → Runnable JAR ﬁle, click Next.
+3 Pick the lunch conﬁguration (project directory of your GUI)
+4 Select the export destination and click Finish to export
+Your JAR ﬁle will run on any OS that has a Java version same or a
+version below your compiler installed.
+Note: Always conﬁgure the Java compiler version to ensure your
+JAR ﬁle runs on computers with lower Java versions installed
+Go to Project → Properties → Java Compiler
+Pick the compiler compliance level and click OK before you
+export
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 276 =====
+Application Development
+Creating an Executable from JAR File - Java Swing Applications
+1 Create the runnable JAR ﬁle
+2 Download and install launch4j
+3 In launch4j:
+On the Basic Tab : Specify the output ﬁle
+On the Basic Tab : Specify the JAR ﬁle location
+On the JRE Tab : Specify the JRE version
+4 Click the Build wrapper icon (the gear button)
+5 Give the .xml ﬁle an appropriate name and click ”Save”
+You will never become a Java programmer with just what I have
+taught you, be curious, create your own applications, make
+mistakes and learn from them.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 277 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277

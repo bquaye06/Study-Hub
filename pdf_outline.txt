@@ -1,0 +1,304 @@
+Total pages: 277
+
+===== PAGE 1 =====
+Catalog
+java
+one
+
+===== PAGE 2 =====
+java
+Seven
+212
+
+===== PAGE 3 =====
+Programming with Java: CE 277
+Course Lecturer: Vincent M. Nofong, Ph.D.
+Computer Science and Engineering Department
+University of Mines and Technology, Tarkwa - Ghana
+February 10, 2019
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 4 =====
+Introduction to Computers and Java
+Revision
+What is a Computer?
+- A programmable electronic device that accepts data in one form
+and processes it to produce data in another form.
+Basically a modern computer is made of:
+Input device(s)
+Processor(s)
+Storage device(s)
+Output device(s)
+Software
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 5 =====
+Introduction to Computers and Java
+Revision
+An Abstract View of the Computer
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 10 =====
+Introduction to Computers and Java
+Revision
+Categories of Programming Languages
+High Level languages
+These are platform dependent.
+They are “English-like”, easy to learn and use.
+Instructions are written in the form of statements
+For example, ExamScore = 25 + 42;
+There are many high level languages, designed for speciﬁc
+purposes. Examples: Ada, Basic, C, C++, C#, Java, Pascal,
+Python, Visual Basic, R, etc.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 15 =====
+Introduction to Computers and Java
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 20 =====
+Introduction to Computers and Java
+Java Programming Language - Things to Note
+JDK - Java Development Toolkit
+Consists of a set of separate programs, which are invoked from
+a command line, for developing and testing Java programs.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 23 =====
+Introduction to Computers and Java
+Some Editors for Creating Java Source Files:
+Eclipse
+Netbeans
+IntelliJ IDEA
+Android Studio
+BlueJ
+jEdit
+DrJava
+Notepad
+and the list goes on
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 24 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 30 =====
+Elementary Programming
+Variables
+Variable Declaration
+There are three types of variables in Java:
+1 Local variable: A variable which is declared inside a method.
+2 Instance Variable: A variable which is declared inside the
+class but outside the method, and is not static
+3 Static variable: A variable that is declared as static.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 40 =====
+Elementary Programming
+Arithmetic
+Arithmetic Functions - Rules of Operator Precedence
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 50 =====
+Elementary Programming
+Numeric Data Types and Operators
+Java has six numeric data types for:
+Integers (byte, short, int, long)
+Floating point numbers (ﬂoat, double)
+with ﬁve operators ( +,−, /slash.left,∗, % )
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 60 =====
+Elementary Programming
+Revision
+Decision Making - Equality and Relational Operators
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 64 =====
+Practicals
+Body Mass Index (BMI) is a measure of health based on height and
+weight. It can be calculated by taking your weight in kilograms and
+dividing it by the square of your height in meters. The
+interpretation of BMI for people 20 years or older is as follows:
+BMI < 18.5: Underweight
+18.5 ≤ BMI < 25.0: Normal
+25.0 ≤ BMI < 30.0: Overweight
+30.0 ≤ BMI: Obese
+Write a program that prompts the user to enter a weight in
+kilograms and height in meters and displays the BMI and the health
+indication of the person
+
+===== PAGE 65 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with Java: CE 277
+
+===== PAGE 70 =====
+Mathematical Functions, Characters and Strings
+Mathematical Functions
+Trigonometric Functions
+Write a program that displays the sin, cos and tan of 30
+degrees
+Is the value same as what your calculator returns?
+Such trigonometric take radians as input.
+Watch out for the type of input required, and convert
+appropriately.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 80 =====
+Mathematical Functions, Characters and Strings
+Character Data Types and Operations
+The ASCII Scheme
+An 8-bit encoding scheme for representing all uppercase and
+lowercase letters, digits, punctuation marks, and control
+characters.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 90 =====
+Mathematical Functions, Characters and Strings
+The String Data Type
+The String Data Type
+The String data type is used to represent a string of characters
+E.g String studentName = “John Robertson”;
+Java provides the following methods for manipulating strings
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 98 =====
+Mathematical Functions, Characters and Strings
+The String Data Type - Obtaining Substrings
+A Practical Assignment for students, will be marked at our next
+lecture.
+The String Data Type - Conversion between Strings and
+Numbers
+A Practical Assignment, will be marked at our next lecture.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 99 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 110 =====
+Selections and Loops
+Selections
+Multi-way if-else Statements with Logical Operators
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 120 =====
+Selections and Loops
+Loops
+The do-while Loop
+The do-while loop is the same as a while loop except that it
+executes the loop body ﬁrst and then checks the loop
+continuation condition
+The syntax for the do-while loop is as follows:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 130 =====
+Exception Handling and Input/Output
+Exception Handling
+Why Exception Handling?
+To ensure robust and fault tolerant programs can be written
+that can deal with problems and continue executing or
+terminate gracefully.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 140 =====
+Exception Handling and Input/Output
+Handling Arithmetic Exceptions
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 150 =====
+Exception Handling and Input/Output
+The File Class
+The File class contains the methods for:
+Obtaining the properties of a ﬁle/directory, and
+Renaming and deleting a ﬁle/directory.
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 170 =====
+Data Structures in Java
+Arrays - Creating Arrays
+The values to an array can be initialized in various ways:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 190 =====
+Data Structures in Java
+Array Lists
+Array Lists
+An Array List is a collection class used to store groups of
+related objects in memory
+Advantages of Array Lists:
+Unlike arrays, Array Lists can grow (when the size is exceeded)
+and shrink (when objects are removed) when needed.
+The ArrayList class provides methods for common tasks (e.g:
+inserting or removing items)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 210 =====
+Data Structures in Java
+HashMaps:
+All content in a HashMap can be printed out as follows:
+System.out.println(mapReference);
+E.g: System.out.println(stdMap);
+You can iterate through the HashMap and print out the key and
+corresponding values as follows:
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 230 =====
+Classes and Objects
+Accessing Objects via Reference Variables
+To use an object’s data and methods for any given object
+class, the class object variable has to be declared:
+ClassName ObjectRefVariable;
+E.g. from the previous rectangular box class:
+rectangular newRectangular;
+newRectangular is the object variable which can reference a
+rectangular object
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 250 =====
+Programming with Java
+CE 277
+Course Lecturer: Vincent M. Nofong, Ph.D.
+Computer Science and Engineering Department
+University of Mines and Technology, Tarkwa - Ghana
+April 9, 2019
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 270 =====
+Application Development
+Adding Event Handlers - Java Swing Applications
+Option 1:
+1 Right click on a component
+2 Select Add event handler
+3 Pick the type of event handler
+4 Write the code to perform the task when the event occurs
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+
+===== PAGE 277 =====
+References
+Y. Daniel Liang (2014), Introduction to Java Programming,
+Comprehensive Version, 10th Edition
+Cay S. Horstmann (2012), Java Concepts: Early Objects, 7th
+Edition.
+Deitel, P. and Deitel, H. (2015) Java How to Program, 10th
+Edition (Early Objects)
+Course Lecturer: Vincent M. Nofong, Ph.D. Programming with JavaCE 277
+

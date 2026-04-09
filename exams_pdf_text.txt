@@ -1,0 +1,410 @@
+Total pages: 7
+
+
+===== PAGE 1 =====
+  
+1 | P a g e  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+• Attempt all questions  
+• Do not take any paper out 
+SECTION A: OBJECTIVES (40 MARKS) 
+1. What is the main method signature in Java? 
+A. public void main(String[] args) 
+B. public static void main(String[] args) 
+C. private static void main(String[] args) 
+D. public static void Main(String[] args) 
+E. public static void main() 
+2. One of the following will be the output of the 
+following code. 
+class Test { 
+    public static void main(String[] args) { 
+        System.out.println(“Hello, World!”); 
+    } 
+} 
+A. Hello, World! 
+B. hello, world! 
+C. Compilation error 
+D. Runtime error 
+E. No output 
+3. A correct variable declaration in Java 
+include…........... 
+A. int x = 10; 
+B. float y = 10.5; 
+C. String name = “Java”; 
+D. boolean flag = true; 
+E. All of the above 
+4. Which of the following data types can store 
+decimal values? 
+A. int 
+B. char 
+C. boolean 
+D. double 
+E. byte 
+5. ……………. is the default value of an 
+uninitialized int variable in Java? 
+A. 0 
+B. null 
+C. undefined 
+D. NaN 
+E. Compilation error 
+6. The output of System.out.println(5 + “5”); 
+will be…………… 
+A. 10 
+B. 55 
+C. 5+5 
+D. Compilation error 
+E. Runtime error 
+7. Which of the following is NOT a Java 
+keyword? 
+A. class 
+B. static 
+UNIVERSITY OF MINES AND TECHNOLOGY, TARKWA 
+FIRST SEMESTER EXAMINATION, APRIL 2025 
+COURSE NO: CE 277  
+COURSE NAME: PROGRAMMING WITH JAVA 
+CLASS:  CE 200  TIME: 2 Hours  
+Name: __________________________________________ Index Number: _______________ 
+
+===== PAGE 2 =====
+  
+2 | P a g e  
+ 
+C. void 
+D. new 
+E. define 
+8. One of these is used to take input from the 
+user in Java? 
+A. System.out.println() 
+B. Scanner 
+C. print() 
+D. readLine() 
+E. input() 
+9. Which loop is best suited for running a block 
+of code a known number of times? 
+A. while 
+B. do-while 
+C. for 
+D. switch 
+E. if 
+10. What will be the output of the following 
+code? 
+int a = 5; 
+int b = 2; 
+System.out.println(a / b); 
+A. 2.5 
+B. 2 
+C. 2.0 
+D. Compilation error 
+E. Runtime error 
+11. What is the correct way to declare an array 
+in Java? 
+A. int arr = new int[5]; 
+B. int[] arr = new int[5]; 
+C. int arr = [5]; 
+D. array<int> arr = new array<int>[5]; 
+E. int arr(5); 
+ 
+12. Which of the following is a valid if condition 
+in Java? 
+A. if (x = 5) 
+B. if x == 5 
+C. if (x == 5) 
+D. if x = 5 then 
+E. if {x == 5} 
+13. How do you create a constant variable in 
+Java? 
+A. static int x = 10; 
+B. final int x = 10; 
+C. const int x = 10; 
+D. define x = 10; 
+E. int x = final 10; 
+14. What is the correct way to write a comment 
+in Java? 
+A. // This is a comment 
+B. # This is a comment 
+C. /* This is a comment */ 
+D. <!-- This is a comment --> 
+E. Both A and C 
+15. What will System.out.println(3 == 3.0); 
+output? 
+A. true 
+B. false 
+C. Compilation error 
+D. Runtime error 
+E. NaN 
+16. ……………. is/are an object-oriented 
+principle(s) in Java? 
+A. Encapsulation 
+B. Inheritance 
+C. Polymorphism 
+D. Abstraction 
+E. All of the above 
+ 
+
+===== PAGE 3 =====
+  
+3 | P a g e  
+ 
+17. Which access modifier makes a variable 
+accessible only within the same class? 
+A. public 
+B. protected 
+C. private 
+D. static 
+E. default 
+18. One of the following methods is used to 
+convert a string into an integer in Java. 
+A. Integer.parseInt() 
+B. String.toInt() 
+C. Integer.toString() 
+D. parseInteger() 
+E. convertToInt() 
+19. What is the output of the following code? 
+System.out.println(10 % 3); 
+A. 1 
+B. 3 
+C. 10 
+D. 0 
+E. Compilation error 
+20. Which statement correctly creates an 
+instance of a class? 
+A. ClassName obj = ClassName(); 
+B. ClassName obj = new ClassName; 
+C. ClassName obj = new ClassName(); 
+D. ClassName obj = create ClassName(); 
+E. ClassName obj = new(); 
+21. How can a method return multiple values in 
+Java? 
+A. Using return 
+B. Using an array 
+C. Using an object 
+D. Using List or Map 
+E. All of the above 
+22. What happens if break is omitted in a switch 
+statement? 
+A. Compilation error 
+B. Runtime error 
+C. Fall-through occurs 
+D. Only the first case executes 
+E. The program exits 
+23. What will be the output of Math.max(10, 
+20);? 
+A. 10 
+B. 20 
+C. 30 
+D. NaN 
+E. Compilation error 
+24. How do you define a constructor in Java? 
+A. Same name as class, no return type 
+B. Same name as class, return type required 
+C. Different name from class, no return type 
+D. Using create() method 
+E. Using init() method 
+25. What is the default value of a boolean 
+variable in Java? 
+A. true 
+B. false 
+C. null 
+D. 0 
+E. 1 
+26. Which keyword is used to inherit a class? 
+A. inherits 
+B. extends 
+C. implements 
+D. super 
+E. this 
+ 
+
+===== PAGE 4 =====
+  
+4 | P a g e  
+ 
+27. What is the return type of the main() 
+method? 
+A. void 
+B. int 
+C. String 
+D. boolean 
+E. double 
+28. How do you compare two strings in Java? 
+A. == 
+B. equals() 
+C. compareTo() 
+D. match() 
+E. Both B and C 
+29. What does System.out.println(5 > 3 ? 
+“Yes” : “No”); output? 
+A. Yes 
+B. No 
+C. true 
+D. false 
+E. 5 
+30. Which of the following is true about Java? 
+A. Java is platform-independent 
+B. Java supports multiple inheritance through 
+classes 
+C. Java is purely object-oriented 
+D. Java does not support exception handling 
+E. Java uses pointers 
+31. A correct way to declare a char variable in 
+Java is ……………? 
+A. char ch = “A”; 
+B. char ch = ‘A’; 
+C. char ch = A; 
+D. char ch = ‘AB’; 
+E. char ch = new char(‘A’); 
+32. What will be the output of the following 
+code? 
+int x = 10; 
+x += 5; 
+System.out.println(x); 
+A. 5 
+B. 10 
+C. 15 
+D. Compilation error 
+E. Runtime error 
+33. Which of the following correctly defines a 
+method in Java? 
+A. public method void myMethod() {} 
+B. void myMethod() {} 
+C. public void myMethod() {} 
+D. def myMethod() {} 
+E. function myMethod() {} 
+34. Which of the following is NOT a primitive 
+data type in Java? 
+A. int 
+B. boolean 
+C. String 
+D. double 
+E. char 
+35. What will be the output of 
+System.out.println(10 == 10.0);? 
+A. true 
+B. false 
+C. Compilation error 
+D. Runtime error 
+E. NaN 
+36. Which keyword is used to create an 
+interface in Java? 
+A. interface 
+B. implements 
+C. class 
+D. inherit 
+E. abstract 
+
+===== PAGE 5 =====
+  
+5 | P a g e  
+ 
+37. What will happen if we try to divide an 
+integer by zero in Java? 
+A. Compilation error 
+B. Runtime exception 
+C. Returns 0 
+D. Infinite loop 
+E. It will print Infinity 
+38. One of these operators is used to compare 
+two values in Java? 
+A. = 
+B. == 
+C. != 
+D. === 
+E. <> 
+ 
+39. Given i = 1; running the statement int j = --i;  
+will cause the values of i and j to be:  
+A. i will be 0 and j will be 1  
+B. i will be 1 and j will be 0 
+C. i will be 1 and j will be 1 
+D. i will be 0 and j will be 0  
+E. None of the above 
+40. What will be the output of the following 
+code? 
+String s1 = “Hello”; 
+String s2 = “Hello,”; 
+System.out.println(s1 == s2); 
+A. true 
+B. false 
+C. Compilation error 
+D. Runtime error 
+E. null 
+ 
+Section B: (10 Marks) 
+Provide short answers for each of the following (1 mark each) 
+ 
+1. John has declared the following integer variable, integer maxValue == Maths.max(20, 15, 
+50); to assign the maximum value to maxValue. Without the option to change the name of 
+variable, rewrite the correct code for John___________. 
+ 
+2. Given two sets A and B, write down the Java code to find their intersection which will be 
+stored in B ________ 
+ 
+3. Given two sets A and B, write down the Java code that will subtract set B from set A 
+________ 
+ 
+4. Given two sets A and B, write down the Java code that will find the union of set A set B 
+________ 
+ 
+5. The finally block in exception handling only executes when the exception occurs. 
+A. True 
+B. False 
+ 
+ 
+
+===== PAGE 6 =====
+  
+6 | P a g e  
+ 
+6. Given int x = 89; write down the output when the following code is run: 
+System.out.println(((x<=49) ^ (x >= 30)) ^ (x<99) && ((x>=20)||(x>=45))); 
+ 
+7. Given int x = 89; write down the output when the following code is run: 
+System.out.println(((x<=49) & (x >= 30)) ^ (x<99) && ((x>=20)||(x>=45))); 
+ 
+8. The_______ block contains the statements that may cause an exception in your code that you 
+are willing to handle. 
+ 
+9. Explain the differences between the while loop and the do-while loop 
+ 
+10. Briefly explain the differences between a single dimensional Array and an ArrayList. 
+ 
+ 
+Section C: Code writing  (10 Marks) 
+ 
+1. Mary, a novice in Java programming wants to use a multidimensional array in storing the 
+names and marks of a students in the code shown below. 
+public class storeStdMarks { 
+  public static void main (String[] Exams) { 
+   String dimArray [] = new Int [3][2]; 
+   dimArray = [0][0] = John Annan; 
+   dimArray = [0][1] = 86; 
+   dimArray = [1][2] = Theresa Opoku;  
+   dimArray = [1][3] = 83; 
+   dimArray = [1][4] = Titus Clinton;  
+   dimArray = [1][5] = 79; 
+  } 
+} 
+ 
+a. Identify and correct the errors in Mary’s code    [3 marks] 
+ 
+b. Using a for-loop write a code for Mary who wants to print out only the marks of each 
+student in the console.       [2 marks] 
+2. Write a loop that computes the sum of all numbers between 2 and 100 inclusive that are 
+whole number multiples of 5 or 7.      [2 marks] 
+3. Write a conditional statement with three branches that sets y to: 2 if x is positive, -3 if x is 
+negative, and 0 if x is zero.       [3 marks] 
+ 
+
+===== PAGE 7 =====
+  
+7 | P a g e  
+ 
+ 

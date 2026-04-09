@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CE 277 Java Study Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Serif:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <header class="hero" id="top">
+    <p class="eyebrow">Programming with Java | CE 277</p>
+    <h1>Java Exam Prep Website</h1>
+    <p class="lead">A complete study site with three linked resources: cram sheet, question bank with answers, and a practical coding roadmap.</p>
+  </header>
+
+  <nav class="main-nav" aria-label="Primary navigation">
+    <a class="tab-link active" href="#cram" data-tab="cram">1) Cram Sheet</a>
+    <a class="tab-link" href="#questions" data-tab="questions">2) Question Bank</a>
+    <a class="tab-link" href="#exams" data-tab="exams">3) Exams</a>
+    <a class="tab-link" href="#code-lab" data-tab="code-lab">4) Code Lab</a>
+    <a class="tab-link" href="#roadmap" data-tab="roadmap">5) Practical Roadmap</a>
+    <button id="themeToggle" class="utility-btn" type="button" aria-label="Toggle dark and light theme">Switch Theme</button>
+  </nav>
+
+  <main>
+    <section id="cram" class="tab-panel active" role="tabpanel" aria-label="Cram Sheet">
+      <div class="panel-head">
+        <h2>2-Page Cram Sheet</h2>
+        <p>Use this tab for last-minute revision. Focus on syntax patterns and concept differences.</p>
+        <button class="pdf-btn" type="button" data-export="cram">Download This Tab as PDF</button>
+      </div>
+
+      <div class="quick-links">
+        <span>Jump to:</span>
+        <a href="#cram-core">Core Concepts</a>
+        <a href="#cram-syntax">Must-Know Syntax</a>
+        <a href="#cram-traps">Common Traps</a>
+        <a href="#cram-checklist">Exam Checklist</a>
+      </div>
+
+      <article id="cram-core" class="card">
+        <h3>Core Concepts in 10 Minutes</h3>
+        <ul>
+          <li>Java flow: write source code, compile to bytecode, run on JVM.</li>
+          <li>Variables: local, instance, static.</li>
+          <li>Primitives: byte, short, int, long, float, double, char, boolean.</li>
+          <li>Control flow: if/else, switch, while, do-while, for.</li>
+          <li>OOP fundamentals: class, object, constructor, encapsulation.</li>
+          <li>Collections overview: ArrayList for dynamic lists, Set for uniqueness, HashMap for key-value pairs.</li>
+          <li>Exception handling for fault-tolerant input and arithmetic operations.</li>
+        </ul>
+      </article>
+
+      <article id="cram-syntax" class="card">
+        <h3>Must-Know Syntax</h3>
+<pre><code>// Input
+Scanner sc = new Scanner(System.in);
+int n = sc.nextInt();
+
+// Condition
+if (n &gt;= 50) {
+    System.out.println("Pass");
+} else {
+    System.out.println("Fail");
+}
+
+// Loop
+for (int i = 0; i &lt; arr.length; i++) {
+    sum += arr[i];
+}
+
+// Exception handling
+try {
+    int x = sc.nextInt();
+} catch (InputMismatchException e) {
+    System.out.println("Invalid input");
+}
+
+// Class + constructor
+class Box {
+    private double width;
+
+    public Box(double width) {
+        this.width = width;
+    }
+}
+
+// File write
+PrintWriter out = new PrintWriter("data.txt");
+out.println("Hello");
+out.close();</code></pre>
+      </article>
+
+      <article id="cram-traps" class="card">
+        <h3>Common Traps</h3>
+        <ul>
+          <li>Comparing strings with <strong>==</strong> instead of <strong>.equals()</strong>.</li>
+          <li>Forgetting degree-to-radian conversion in trig functions.</li>
+          <li>Using integer division when decimal output is needed.</li>
+          <li>Missing braces causing wrong control-flow grouping.</li>
+          <li>Not closing file writers/readers.</li>
+        </ul>
+      </article>
+
+      <article id="cram-checklist" class="card">
+        <h3>Exam Checklist</h3>
+        <ol>
+          <li>Can you write input-process-output programs quickly?</li>
+          <li>Can you choose the correct loop type by requirement?</li>
+          <li>Can you defend against bad input with try/catch?</li>
+          <li>Can you design a class with constructor + methods?</li>
+          <li>Can you decide between array, ArrayList, Set, and HashMap?</li>
+        </ol>
+      </article>
+    </section>
+
+    <section id="questions" class="tab-panel" role="tabpanel" aria-label="Question Bank">
+      <div class="panel-head">
+        <h2>Question Bank with Answers</h2>
+        <p>Chapter-based revision questions and concise model answers (50+ likely exam questions).</p>
+        <button class="pdf-btn" type="button" data-export="questions">Download This Tab as PDF</button>
+      </div>
+
+      <div class="quick-links">
+        <span>Jump to:</span>
+        <a href="#q-fundamentals">Fundamentals</a>
+        <a href="#q-elementary">Elementary Programming</a>
+        <a href="#q-math-strings">Math, Chars, Strings</a>
+        <a href="#q-control">Selections & Loops</a>
+        <a href="#q-exceptions">Exceptions & I/O</a>
+        <a href="#q-ds">Data Structures</a>
+        <a href="#q-oop">OOP + Methods</a>
+        <a href="#q-app">Application Development</a>
+      </div>
+
+      <section class="card tools" aria-label="Question tools">
+        <h3>Question Tools</h3>
+        <div class="tools-grid">
+          <label>
+            Search questions
+            <input id="questionSearch" type="search" placeholder="Type topic or keyword...">
+          </label>
+          <label>
+            Filter by section
+            <select id="sectionFilter">
+              <option value="all">All sections</option>
+              <option value="q-fundamentals">Fundamentals</option>
+              <option value="q-elementary">Elementary Programming</option>
+              <option value="q-math-strings">Math, Characters, and Strings</option>
+              <option value="q-control">Selections and Loops</option>
+              <option value="q-exceptions">Exceptions and I/O</option>
+              <option value="q-ds">Data Structures</option>
+              <option value="q-oop">OOP and Methods</option>
+              <option value="q-app">Application Development</option>
+            </select>
+          </label>
+          <div class="tool-actions">
+            <button id="clearFilters" type="button" class="utility-btn">Clear Filters</button>
+          </div>
+        </div>
+        <p id="questionCount" class="tool-note">Showing questions...</p>
+        <p id="revisedCount" class="tool-note">Revised progress: 0 / 0</p>
+      </section>
+
+      <section class="card tools" aria-label="Timed quiz mode">
+        <h3>Timed Quiz Mode</h3>
+        <div class="quiz-controls">
+          <label>
+            Number of questions
+            <select id="quizCount">
+              <option value="10">10</option>
+              <option value="15" selected>15</option>
+              <option value="20">20</option>
+            </select>
+          </label>
+          <label>
+            Time (minutes)
+            <select id="quizMinutes">
+              <option value="5">5</option>
+              <option value="10" selected>10</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+            </select>
+          </label>
+          <button id="startQuiz" type="button" class="utility-btn">Start Quiz</button>
+          <button id="exportReviewPdf" type="button" class="utility-btn">Export Review PDF</button>
+        </div>
+        <p id="quizStatus" class="tool-note">Quiz not started.</p>
+        <div id="quizPanel" class="quiz-panel" hidden>
+          <p id="quizTimer" class="quiz-timer">Time left: --:--</p>
+          <div id="quizQuestion" class="quiz-question"></div>
+          <div class="quiz-actions">
+            <button id="nextQuizQuestion" type="button" class="utility-btn">Next</button>
+            <button id="submitQuiz" type="button" class="utility-btn">Submit Quiz</button>
+            <button id="retryWrong" type="button" class="utility-btn" disabled>Retry Wrong Questions</button>
+          </div>
+          <p id="retryHint" class="tool-note">After submission, this button retries only incorrect/unanswered questions.</p>
+          <div id="quizReview" class="quiz-review" hidden></div>
+        </div>
+
+        <div class="metrics-grid">
+          <article class="metrics-card">
+            <h4>Best Score</h4>
+            <p id="bestScoreLine" class="tool-note">No attempts yet.</p>
+          </article>
+
+          <article class="metrics-card">
+            <h4>Recent Attempts</h4>
+            <ul id="quizHistory" class="history-list">
+              <li class="tool-note">No quiz attempts yet.</li>
+            </ul>
+          </article>
+        </div>
+
+        <article class="metrics-card">
+          <h4>Per-Topic Performance Analytics</h4>
+          <div id="analyticsPanel" class="analytics-panel">
+            <p class="tool-note">No analytics yet. Complete a quiz to populate this panel.</p>
+          </div>
+        </article>
+      </section>
+
+      <div id="questionBank"></div>
+      <p id="noResults" class="tool-note" hidden>No questions match your current filter.</p>
+    </section>
+
+    <section id="exams" class="tab-panel" role="tabpanel" aria-label="Exams">
+      <div class="panel-head">
+        <h2>Exams Bank</h2>
+        <p>Includes every question from the April 2025 past paper plus 250+ exam-style practice questions.</p>
+        <button class="pdf-btn" type="button" data-export="exams">Download This Tab as PDF</button>
+      </div>
+
+      <div class="quick-links">
+        <span>Jump to:</span>
+        <a href="#exam-pdf-objectives">PDF Objectives</a>
+        <a href="#exam-pdf-short">PDF Short Answers</a>
+        <a href="#exam-pdf-code">PDF Code Writing</a>
+        <a href="#exam-practice-basics">Practice Basics</a>
+        <a href="#exam-practice-arithmetic">Arithmetic</a>
+        <a href="#exam-practice-control">Control Flow</a>
+        <a href="#exam-practice-strings">Strings</a>
+        <a href="#exam-practice-arrays">Arrays & Collections</a>
+        <a href="#exam-practice-fill-code">Fill-in Code</a>
+        <a href="#exam-practice-oop">OOP</a>
+        <a href="#exam-practice-exceptions">Exceptions</a>
+        <a href="#exam-practice-methods">Methods</a>
+      </div>
+
+      <section class="card tools" aria-label="Exams tools">
+        <h3>Exams Tools</h3>
+        <div class="tools-grid">
+          <label>
+            Search exams
+            <input id="examSearch" type="search" placeholder="Search by keyword...">
+          </label>
+          <label>
+            Filter by section
+            <select id="examSectionFilter">
+              <option value="all">All sections</option>
+              <option value="exam-pdf-objectives">PDF Objectives</option>
+              <option value="exam-pdf-short">PDF Short Answers</option>
+              <option value="exam-pdf-code">PDF Code Writing</option>
+              <option value="exam-practice-basics">Practice Basics</option>
+              <option value="exam-practice-arithmetic">Practice Arithmetic</option>
+              <option value="exam-practice-control">Practice Control Flow</option>
+              <option value="exam-practice-strings">Practice Strings</option>
+              <option value="exam-practice-arrays">Practice Arrays & Collections</option>
+              <option value="exam-practice-fill-code">Practice Fill-in Code</option>
+              <option value="exam-practice-oop">Practice OOP</option>
+              <option value="exam-practice-exceptions">Practice Exceptions</option>
+              <option value="exam-practice-methods">Practice Methods</option>
+            </select>
+          </label>
+          <div class="tool-actions">
+            <button id="examClearFilters" type="button" class="utility-btn">Clear Filters</button>
+          </div>
+        </div>
+        <p id="examCount" class="tool-note">Showing questions...</p>
+        <p id="examRevisedCount" class="tool-note">Revised progress: 0 / 0</p>
+      </section>
+
+      <section class="card tools" aria-label="Past paper mock test">
+        <h3>Past Paper Mock Test</h3>
+        <div class="quiz-controls">
+          <label>
+            Question count
+            <select id="examMockCount">
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="40" selected>40</option>
+              <option value="54">54</option>
+            </select>
+          </label>
+          <label>
+            Time (minutes)
+            <select id="examMockMinutes">
+              <option value="10">10</option>
+              <option value="20" selected>20</option>
+              <option value="30">30</option>
+              <option value="45">45</option>
+            </select>
+          </label>
+          <button id="examMockStart" type="button" class="utility-btn">Start Mock Test</button>
+          <button id="examMockSubmit" type="button" class="utility-btn" disabled>Submit Test</button>
+          <button id="examMockSave" type="button" class="utility-btn" disabled>Save Score</button>
+          <button id="examMockReset" type="button" class="utility-btn">Reset</button>
+        </div>
+        <p id="examMockStatus" class="tool-note">Mock test not started.</p>
+        <p id="examMockTimer" class="quiz-timer">Time left: --:--</p>
+        <p id="examMockNote" class="tool-note">Answers stay hidden until you submit the test.</p>
+        <div id="examMockBank" class="mock-bank" hidden></div>
+      </section>
+
+      <div class="metrics-grid">
+        <article class="metrics-card">
+          <h4>Past Paper Best Score</h4>
+          <p id="examBestScoreLine" class="tool-note">No past paper attempts yet.</p>
+        </article>
+
+        <article class="metrics-card">
+          <h4>Past Paper Attempts</h4>
+          <ul id="examHistory" class="history-list">
+            <li class="tool-note">No past paper attempts yet.</li>
+          </ul>
+        </article>
+      </div>
+
+      <div id="examBank"></div>
+      <p id="examNoResults" class="tool-note" hidden>No exam questions match your current filter.</p>
+    </section>
+
+    <section id="code-lab" class="tab-panel" role="tabpanel" aria-label="Code Lab">
+      <div class="panel-head">
+        <h2>Code Lab: Fill in the Code</h2>
+        <p>Write short code snippets for each task, then auto-check your answer as correct or incorrect.</p>
+        <button class="pdf-btn" type="button" data-export="code-lab">Download This Tab as PDF</button>
+      </div>
+
+      <section class="card tools" aria-label="Code Lab tools">
+        <h3>How Auto-Checking Works</h3>
+        <ul>
+          <li>Each question includes sample input values and an expected output (values rotate over time).</li>
+          <li>Your snippet runs against the sample inputs in a sandbox.</li>
+          <li>Set the final answer into the required variable name listed in each question.</li>
+        </ul>
+        <div class="quiz-actions">
+          <button id="checkAllCodeLab" type="button" class="utility-btn">Check All Answers</button>
+          <button id="clearCodeLab" type="button" class="utility-btn">Clear All Code</button>
+        </div>
+        <p id="codeLabSummary" class="tool-note">Solved 0 / 0 correctly.</p>
+      </section>
+
+      <div id="codeLabMount"></div>
+    </section>
+
+    <section id="roadmap" class="tab-panel" role="tabpanel" aria-label="Practical Coding Roadmap">
+      <div class="panel-head">
+        <h2>Practical Coding Roadmap</h2>
+        <p>A step-by-step path to build exam confidence through implementation.</p>
+        <button class="pdf-btn" type="button" data-export="roadmap">Download This Tab as PDF</button>
+      </div>
+
+      <div class="quick-links">
+        <span>Jump to:</span>
+        <a href="#r-week1">Week 1-2</a>
+        <a href="#r-week2">Week 3-4</a>
+        <a href="#r-week3">Week 5-6</a>
+        <a href="#r-capstone">Capstone</a>
+      </div>
+
+      <article id="r-week1" class="card">
+        <h3>Week 1-2: Basics + Console Skills</h3>
+        <ol>
+          <li>Create 10 mini programs on variables, arithmetic, and type conversion.</li>
+          <li>Implement BMI calculator and grade classification with if/else.</li>
+          <li>Practice Scanner input for int, double, and String in one flow.</li>
+        </ol>
+      </article>
+
+      <article id="r-week2" class="card">
+        <h3>Week 3-4: Strings + Loop Mastery</h3>
+        <ol>
+          <li>Write string utility programs: count vowels, palindrome check, substring extraction.</li>
+          <li>Implement 5 loop challenges: sum range, multiplication table, menu loop, sentinel input, pattern printing.</li>
+          <li>Add basic input validation and user re-entry logic.</li>
+        </ol>
+      </article>
+
+      <article id="r-week3" class="card">
+        <h3>Week 5-6: Exceptions + Data Structures + OOP</h3>
+        <ol>
+          <li>Refactor prior programs with try/catch for robust behavior.</li>
+          <li>Build one project each using array, ArrayList, Set, and HashMap.</li>
+          <li>Create classes (Student, Course, Result) with constructors and methods.</li>
+          <li>Apply encapsulation, static members, and method decomposition.</li>
+        </ol>
+      </article>
+
+      <article id="r-capstone" class="card">
+        <h3>Capstone: Student Results Manager</h3>
+        <p>Build one integrated application combining all major course skills.</p>
+        <ul>
+          <li>Input student records from console or file.</li>
+          <li>Validate data with exception handling.</li>
+          <li>Store records in ArrayList and HashMap.</li>
+          <li>Use OOP classes for clean architecture.</li>
+          <li>Optional: add a Swing GUI and export runnable JAR.</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p class="note">PDF export opens the browser print dialog. Choose "Save as PDF" to download.</p>
+    <a href="#top">Back to top</a>
+    <p>Built for CE 277 revision, April 2026.</p>
+  </footer>
+
+  <script src="exams.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
