@@ -90,69 +90,103 @@ const QUESTION_SECTIONS = [
 ];
 
 const QUESTIONS = [
-  { sec: 'q-fundamentals', q: 'What makes Java platform-independent?', a: 'Java compiles to bytecode that runs on any machine with a compatible JVM.' },
-  { sec: 'q-fundamentals', q: 'What is the main purpose of JDK?', a: 'It provides development tools like javac and java for compiling and running programs.' },
-  { sec: 'q-fundamentals', q: 'Difference between source code and bytecode?', a: 'Source code is human-written .java text; bytecode is compiled .class instructions for JVM.' },
-  { sec: 'q-fundamentals', q: 'Name two Java IDEs used in class.', a: 'Examples are Eclipse and IntelliJ IDEA.' },
-  { sec: 'q-fundamentals', q: 'What is a compiler error?', a: 'A syntax/type issue detected before execution by the compiler.' },
-  { sec: 'q-fundamentals', q: 'What is a runtime error?', a: 'An error that occurs while the program executes, such as divide-by-zero.' },
-  { sec: 'q-fundamentals', q: 'What does API stand for in Java context?', a: 'Application Programming Interface, a set of ready-made classes and methods.' },
+  // Fundamentals - Tricky type system questions
+  { sec: 'q-fundamentals', q: 'What will System.out.println(5 + "5"); output?', a: '55' },
+  { sec: 'q-fundamentals', q: 'What is the output of System.out.println(3 == 3.0);?', a: 'true' },
+  { sec: 'q-fundamentals', q: 'What will System.out.println(10 % 3); output?', a: '1' },
+  { sec: 'q-fundamentals', q: 'Which of these is NOT a Java keyword? answer: define', a: 'define' },
+  { sec: 'q-fundamentals', q: 'What will be the output of int a = 5; int b = 2; System.out.println(a / b);?', a: '2' },
+  { sec: 'q-fundamentals', q: 'What is the default value of an uninitialized int variable in Java?', a: '0' },
+  { sec: 'q-fundamentals', q: 'Which data type stores decimal values in Java?', a: 'double' },
 
-  { sec: 'q-elementary', q: 'What are local variables?', a: 'Variables declared inside methods and accessible only within that method block.' },
-  { sec: 'q-elementary', q: 'What are instance variables?', a: 'Fields declared in a class, outside methods, belonging to each object instance.' },
-  { sec: 'q-elementary', q: 'What are static variables?', a: 'Class-level fields shared by all objects of that class.' },
+  // Elementary - Pre/post increment and assignment operators
+  { sec: 'q-elementary', q: 'Given i = 1; running int j = --i; what are final values of i and j?', a: 'i will be 0 and j will be 0' },
+  { sec: 'q-elementary', q: 'What will int x = 10; x += 5; System.out.println(x); output?', a: '15' },
+  { sec: 'q-elementary', q: 'Which statement correctly creates an instance? answer: ClassName obj = new ClassName();', a: 'ClassName obj = new ClassName();' },
+  { sec: 'q-elementary', q: 'How do you define a constructor in Java?', a: 'Same name as class, no return type' },
+  { sec: 'q-elementary', q: 'What statement correctly declares a char variable: char ch = \'A\';?', a: 'char ch = \'A\';' },
+  { sec: 'q-elementary', q: 'What is operator precedence in Java?', a: 'Rules that determine evaluation order, like multiplication before addition.' },
   { sec: 'q-elementary', q: 'Why can integer division cause wrong answers?', a: 'Because int/int truncates decimals, e.g., 5/2 becomes 2.' },
-  { sec: 'q-elementary', q: 'When should you use double instead of int?', a: 'When values may contain fractional parts or need decimal precision.' },
-  { sec: 'q-elementary', q: 'How do you read integer input from keyboard?', a: 'Use Scanner and call nextInt().' },
-  { sec: 'q-elementary', q: 'What is operator precedence?', a: 'Rules that determine evaluation order, like multiplication before addition.' },
 
-  { sec: 'q-math-strings', q: 'Why convert degrees to radians for trig in Java?', a: 'Math.sin/cos/tan expect radians, not degrees.' },
-  { sec: 'q-math-strings', q: 'How can you convert degrees to radians?', a: 'Use Math.toRadians(degrees).' },
-  { sec: 'q-math-strings', q: 'What does char represent?', a: 'A single 16-bit Unicode character value.' },
-  { sec: 'q-math-strings', q: 'How is a String different from char?', a: 'String stores a sequence of characters, while char stores one character.' },
-  { sec: 'q-math-strings', q: 'Correct way to compare String content?', a: 'Use equals() or equalsIgnoreCase(), not ==.' },
-  { sec: 'q-math-strings', q: 'How do you get part of a string?', a: 'Use substring(start, end) or substring(start).' },
-  { sec: 'q-math-strings', q: 'How convert String to int?', a: 'Use Integer.parseInt(text).' },
+  // Math & Strings - Edge cases with type conversion
+  { sec: 'q-math-strings', q: 'What method converts a string into an integer in Java?', a: 'Integer.parseInt()' },
+  { sec: 'q-math-strings', q: 'How do you compare two strings in Java correctly?', a: 'Use equals() or equalsIgnoreCase(), not ==' },
+  { sec: 'q-math-strings', q: 'What will System.out.println(10 == 10.0); output?', a: 'true' },
+  { sec: 'q-math-strings', q: 'What does string == compare in Java for two strings?', a: 'Memory references, not content' },
+  { sec: 'q-math-strings', q: 'Explain: String s1 = "Hello"; String s2 = "Hello"; s1 == s2 returns what? answer: true (string literal pooling)', a: 'true due to string literal pooling in memory' },
+  { sec: 'q-math-strings', q: 'Can you compare int and double with ==?', a: 'Yes, they are automatically compared by value' },
+  { sec: 'q-math-strings', q: 'What is the correct way to declare a char variable?', a: 'char ch = \'A\'; (using single quotes)' },
 
-  { sec: 'q-control', q: 'When is if-else preferred?', a: 'For range-based or complex boolean conditions.' },
-  { sec: 'q-control', q: 'When is switch preferred?', a: 'When choosing among many discrete cases of one expression.' },
+  // Control Flow - Switch and conditional issues
+  { sec: 'q-control', q: 'What happens if break is omitted in a switch statement?', a: 'Fall-through occurs to the next case' },
+  { sec: 'q-control', q: 'What will System.out.println(5 > 3 ? "Yes" : "No"); output?', a: 'Yes' },
+  { sec: 'q-control', q: 'Which if condition is valid: if (x == 5)?', a: 'if (x == 5)' },
+  { sec: 'q-control', q: 'What is the difference between = and == in conditions?', a: '= is assignment; == is comparison. Using = in if causes errors or unexpected behavior.' },
   { sec: 'q-control', q: 'Difference between while and do-while?', a: 'while checks condition first; do-while executes body at least once.' },
-  { sec: 'q-control', q: 'When should for loop be used?', a: 'When iteration count or index progression is known.' },
-  { sec: 'q-control', q: 'What does break do in loop or switch?', a: 'It exits the nearest loop/switch immediately.' },
-  { sec: 'q-control', q: 'What does continue do?', a: 'It skips current loop iteration and proceeds to next iteration.' },
-  { sec: 'q-control', q: 'What is a sentinel-controlled loop?', a: 'A loop that ends when a special stop value is entered.' },
+  { sec: 'q-control', q: 'Which loop is best for a known number of iterations?', a: 'for loop' },
+  { sec: 'q-control', q: 'What does continue do in a loop?', a: 'It skips current loop iteration and proceeds to next iteration.' },
 
-  { sec: 'q-exceptions', q: 'Why use exception handling?', a: 'To prevent crashes and handle abnormal cases safely.' },
-  { sec: 'q-exceptions', q: 'What is try-catch used for?', a: 'Wrapping risky code and handling specific exceptions if they occur.' },
-  { sec: 'q-exceptions', q: 'What does finally block do?', a: 'Runs cleanup code whether exception occurs or not.' },
-  { sec: 'q-exceptions', q: 'What is InputMismatchException?', a: 'Thrown when Scanner receives data of unexpected type.' },
-  { sec: 'q-exceptions', q: 'Why ask user to re-enter values after exception?', a: 'It improves robustness and keeps program flow usable.' },
-  { sec: 'q-exceptions', q: 'Role of File class in Java I/O?', a: 'Represents file/directory paths and metadata operations.' },
-  { sec: 'q-exceptions', q: 'Difference between Scanner and PrintWriter for files?', a: 'Scanner reads input; PrintWriter writes formatted text output.' },
+  // Exceptions - Finally block and throw handling
+  { sec: 'q-exceptions', q: 'Does the finally block execute if no exception occurs?', a: 'True' },
+  { sec: 'q-exceptions', q: 'What will happen if we divide an integer by zero in Java?', a: 'Runtime exception (ArithmeticException)' },
+  { sec: 'q-exceptions', q: 'What is the try block used for in exception handling?', a: 'Contains statements that may cause an exception' },
+  { sec: 'q-exceptions', q: 'When does a finally block execute?', a: 'Always, whether exception occurs or not' },
+  { sec: 'q-exceptions', q: 'What exception occurs with Scanner receiving unexpected data type?', a: 'InputMismatchException' },
+  { sec: 'q-exceptions', q: 'Can you catch multiple exception types in one catch block?', a: 'Yes, using | operator in Java 7+' },
+  { sec: 'q-exceptions', q: 'What is the role of throw keyword?', a: 'Explicitly throws an exception to be handled by caller' },
 
-  { sec: 'q-ds', q: 'What is an array?', a: 'A fixed-size indexed structure storing same-type values.' },
-  { sec: 'q-ds', q: 'How is ArrayList better than array in some cases?', a: 'It resizes dynamically and provides insertion/removal methods.' },
-  { sec: 'q-ds', q: 'When should Set be used?', a: 'When duplicate values must be automatically eliminated.' },
-  { sec: 'q-ds', q: 'What is a HashMap?', a: 'A key-value collection optimized for fast average lookup.' },
-  { sec: 'q-ds', q: 'How do you traverse an array?', a: 'Use for loop or enhanced for loop over elements.' },
-  { sec: 'q-ds', q: 'What is a multidimensional array?', a: 'An array whose elements are arrays, useful for tables/matrices.' },
-  { sec: 'q-ds', q: 'Map one practical use of HashMap in CE 277.', a: 'Store student ID as key and score/object as value.' },
+  // Data Structures - Collections and array operations
+  { sec: 'q-ds', q: 'What is the correct array declaration: int[] arr = new int[5];?', a: 'int[] arr = new int[5];' },
+  { sec: 'q-ds', q: 'How do you access the first element of an array?', a: 'arr[0]' },
+  { sec: 'q-ds', q: 'What is advantage of ArrayList over array?', a: 'It resizes dynamically and provides insertion/removal methods' },
+  { sec: 'q-ds', q: 'When should Set be used?', a: 'When duplicate values must be automatically eliminated' },
+  { sec: 'q-ds', q: 'What is a multidimensional array used for?', a: 'Storing data in tables/matrices with multiple rows and columns' },
+  { sec: 'q-ds', q: 'How do you find intersection of two sets A and B in Java?', a: 'Use A.retainAll(B);' },
+  { sec: 'q-ds', q: 'How do you find union of two sets A and B?', a: 'Use A.addAll(B);' },
 
-  { sec: 'q-oop', q: 'What is a class?', a: 'A blueprint defining fields and methods for objects.' },
-  { sec: 'q-oop', q: 'What is an object?', a: 'A runtime instance created from a class blueprint.' },
-  { sec: 'q-oop', q: 'Purpose of constructors?', a: 'Initialize object state during creation.' },
-  { sec: 'q-oop', q: 'What is encapsulation?', a: 'Hiding data fields and exposing controlled access via methods.' },
-  { sec: 'q-oop', q: 'What does this keyword refer to?', a: 'The current object instance.' },
-  { sec: 'q-oop', q: 'Difference between static and instance method?', a: 'Static belongs to class; instance belongs to object and can access instance state.' },
-  { sec: 'q-oop', q: 'What is method overloading?', a: 'Same method name with different parameter lists in one class.' },
+  // OOP - Inheritance, access modifiers, and method concepts
+  { sec: 'q-oop', q: 'Which access modifier makes a variable accessible only within the same class?', a: 'private' },
+  { sec: 'q-oop', q: 'Which keyword is used to inherit a class?', a: 'extends' },
+  { sec: 'q-oop', q: 'What are the four OOP principles? answer: Encapsulation, Inheritance, Polymorphism, Abstraction', a: 'Encapsulation, Inheritance, Polymorphism, Abstraction' },
+  { sec: 'q-oop', q: 'How do you create a constant variable in Java?', a: 'final int x = 10;' },
+  { sec: 'q-oop', q: 'What is method overloading?', a: 'Same method name with different parameter lists in one class' },
+  { sec: 'q-oop', q: 'Difference between static and instance method?', a: 'Static belongs to class; instance belongs to object and can access instance state' },
+  { sec: 'q-oop', q: 'Can a method return multiple values?', a: 'Yes, using array, object, List, or Map' },
 
-  { sec: 'q-app', q: 'What is Java Swing?', a: 'A Java GUI toolkit for building desktop interfaces.' },
-  { sec: 'q-app', q: 'What is JavaFX in relation to Swing?', a: 'Another Java UI framework, often more modern in architecture and styling.' },
-  { sec: 'q-app', q: 'What is event handling?', a: 'Running specific code when user actions like clicks occur.' },
-  { sec: 'q-app', q: 'What is an event handler?', a: 'A method/listener attached to a component event.' },
-  { sec: 'q-app', q: 'Why package as runnable JAR?', a: 'To distribute and execute the application more easily.' },
-  { sec: 'q-app', q: 'What is a common GUI workflow in IDE?', a: 'Design components, set properties, connect handlers, then test and package.' },
-  { sec: 'q-app', q: 'One capstone feature combining CE 277 topics?', a: 'GUI form input validated by exceptions and stored in ArrayList/HashMap-backed classes.' }
+  // Application & Complex Logic - Operators and boolean logic
+  { sec: 'q-app', q: 'What is the return type of the main() method?', a: 'void' },
+  { sec: 'q-app', q: 'What is the correct main method signature?', a: 'public static void main(String[] args)' },
+  { sec: 'q-app', q: 'Which operators are used for comparison?', a: '== (equal), != (not equal), < > <= >=' },
+  { sec: 'q-app', q: 'What outputs true/false in Java?', a: 'Comparison operators and boolean expressions' },
+  { sec: 'q-app', q: 'What will Math.max(10, 20); return?', a: '20' },
+  { sec: 'q-app', q: 'What keyword creates an interface?', a: 'interface' },
+  { sec: 'q-app', q: 'What is the purpose of a constructor?', a: 'Initialize object state during creation' },
+
+  // TRUE/FALSE QUESTIONS - From actual exam
+  { sec: 'q-fundamentals', q: 'True or False: The remainder of 10 % 3 is 1.', a: 'true' },
+  { sec: 'q-fundamentals', q: 'True or False: Java is platform-independent because it compiles to bytecode.', a: 'true' },
+  { sec: 'q-elementary', q: 'True or False: The == operator compares string content in Java.', a: 'false' },
+  { sec: 'q-elementary', q: 'True or False: A constructor must have a return type specified.', a: 'false' },
+  { sec: 'q-elementary', q: 'True or False: Static variables are shared among all instances of a class.', a: 'true' },
+  { sec: 'q-math-strings', q: 'True or False: The expression 5 == 5.0 evaluates to true in Java.', a: 'true' },
+  { sec: 'q-math-strings', q: 'True or False: Integer.parseInt() converts an int to a String.', a: 'false' },
+  { sec: 'q-math-strings', q: 'True or False: Single quotes are used to declare String variables in Java.', a: 'false' },
+  { sec: 'q-control', q: 'True or False: In a while loop, the condition is checked before each iteration.', a: 'true' },
+  { sec: 'q-control', q: 'True or False: A do-while loop executes the body at least once.', a: 'true' },
+  { sec: 'q-control', q: 'True or False: The break statement exits the nearest loop or switch.', a: 'true' },
+  { sec: 'q-control', q: 'True or False: Using = instead of == in an if condition is valid syntax.', a: 'true' },
+  { sec: 'q-exceptions', q: 'True or False: The finally block only executes if an exception occurs.', a: 'false' },
+  { sec: 'q-exceptions', q: 'True or False: Dividing an integer by zero results in Infinity.', a: 'false' },
+  { sec: 'q-exceptions', q: 'True or False: The try block contains statements that may cause an exception.', a: 'true' },
+  { sec: 'q-ds', q: 'True or False: An ArrayList resizes dynamically unlike a regular array.', a: 'true' },
+  { sec: 'q-ds', q: 'True or False: Sets automatically eliminate duplicate values.', a: 'true' },
+  { sec: 'q-ds', q: 'True or False: Multidimensional arrays can store different data types in each element.', a: 'false' },
+  { sec: 'q-oop', q: 'True or False: The extends keyword is used to inherit a class.', a: 'true' },
+  { sec: 'q-oop', q: 'True or False: Private variables are accessible from outside the class.', a: 'false' },
+  { sec: 'q-oop', q: 'True or False: A static method can access instance variables directly.', a: 'false' },
+  { sec: 'q-app', q: 'True or False: The main() method must be public and static.', a: 'true' },
+  { sec: 'q-app', q: 'True or False: Java supports multiple inheritance through classes.', a: 'false' },
+  { sec: 'q-app', q: 'True or False: Encapsulation hides internal implementation details of a class.', a: 'true' }
 ];
 
 function shuffleArray(items) {
@@ -444,15 +478,25 @@ function loadRevisedState() {
   }
 }
 
+function isTrueFalseQuestion(item) {
+  const questionText = String(item?.q || '').trim();
+  const answerText = String(item?.a || '').trim();
+  return /^true\s+or\s+false:/i.test(questionText) || /^(true|false)$/i.test(answerText);
+}
+
 function buildQuizQuestionView(item, displayNumber, totalQuestions) {
   const isLocked = currentQuiz && Array.isArray(currentQuiz.lockedAnswers)
     ? currentQuiz.lockedAnswers[currentQuiz.index] === true
     : false;
 
-  const options = shuffleArray([
-    item.a,
-    ...shuffleArray(QUESTIONS.filter((q) => q.a !== item.a)).slice(0, 3).map((q) => q.a)
-  ]);
+  const isTrueFalse = isTrueFalseQuestion(item);
+
+  const options = isTrueFalse
+    ? shuffleArray(['True', 'False'])
+    : shuffleArray([
+        item.a,
+        ...shuffleArray(QUESTIONS.filter((q) => q.a !== item.a)).slice(0, 3).map((q) => q.a)
+      ]);
 
   const optionMarkup = options
     .map((opt, idx) => {
@@ -484,7 +528,10 @@ function getSectionTitle(sectionId) {
 function buildQuizReviewMarkup(items, answers) {
   const cards = items.map((item, idx) => {
     const selected = answers[idx] || 'No answer selected';
-    const isCorrect = selected === item.a;
+    const isTrueFalse = isTrueFalseQuestion(item);
+    const isCorrect = isTrueFalse
+      ? String(selected).toLowerCase() === String(item.a).toLowerCase()
+      : selected === item.a;
     const statusClass = isCorrect ? 'correct' : 'wrong';
     const statusText = isCorrect ? 'Correct' : 'Needs review';
     const sectionTitle = getSectionTitle(item.sec);

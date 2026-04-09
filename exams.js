@@ -72,6 +72,10 @@
     return actual === expected;
   }
 
+  function isTrueFalseAnswer(value) {
+    return /^(true|false)$/i.test(String(value).trim());
+  }
+
   const PDF_EXAM_ITEMS = [
     { sectionId: 'exam-pdf-objectives', q: 'What is the main method signature in Java?', a: 'public static void main(String[] args)' },
     { sectionId: 'exam-pdf-objectives', q: 'What is the output of a program that prints Hello, World!', a: 'Hello, World!' },
@@ -669,6 +673,9 @@
     if (item.type === 'code') {
       return currentMock.codeResults[index] === true;
     }
+    if (isTrueFalseAnswer(item.a)) {
+      return String(currentMock.selectedAnswers[index] || '').trim().toLowerCase() === String(item.a).trim().toLowerCase();
+    }
     return currentMock.selectedAnswers[index] === item.a;
   }
 
@@ -816,6 +823,10 @@
   }
 
   function buildMockChoices(correctAnswer) {
+    if (isTrueFalseAnswer(correctAnswer)) {
+      return shuffle(['True', 'False']);
+    }
+
     const collected = new Set();
 
     [
@@ -906,7 +917,9 @@
           currentMock.selectedAnswers[itemIndex] = selectedAnswer;
           const feedback = item.querySelector('.mock-feedback');
           const status = item.querySelector('.mock-feedback-status');
-          const isCorrect = selectedAnswer === currentItem.a;
+          const isCorrect = isTrueFalseAnswer(currentItem.a)
+            ? String(selectedAnswer).trim().toLowerCase() === String(currentItem.a).trim().toLowerCase()
+            : selectedAnswer === currentItem.a;
 
           item.classList.remove('correct', 'wrong');
           item.classList.add(isCorrect ? 'correct' : 'wrong');
