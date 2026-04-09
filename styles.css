@@ -320,13 +320,15 @@ select {
 }
 
 .quiz-option {
-  display: flex;
-  gap: 0.45rem;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1rem 1.8rem 1fr;
+  column-gap: 0.55rem;
+  align-items: start;
   margin: 0.35rem 0;
   border: 1px solid var(--line);
   border-radius: 10px;
-  padding: 0.5rem 0.65rem;
+  padding: 0.55rem 0.65rem;
+  cursor: pointer;
   background: color-mix(in srgb, var(--card) 94%, #ffffff 6%);
   transition: border-color 140ms ease, background 140ms ease, transform 140ms ease;
 }
@@ -338,11 +340,17 @@ select {
 }
 
 .quiz-option input[type="radio"] {
-  margin: 0.2rem 0 0;
+  margin: 0.18rem 0 0;
   accent-color: var(--accent-2);
 }
 
-.quiz-option input[type="radio"]:checked + span {
+.quiz-option input[type="radio"]:checked + .mock-option-tag {
+  border-color: var(--accent-2);
+  color: var(--accent-2);
+  background: color-mix(in srgb, var(--card) 70%, var(--accent-2) 30%);
+}
+
+.quiz-option input[type="radio"]:checked + .mock-option-tag + span {
   color: color-mix(in srgb, var(--ink) 75%, var(--accent-2) 25%);
   font-weight: 700;
 }
@@ -358,7 +366,13 @@ select {
   box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent-2) 28%, transparent);
 }
 
-.quiz-option.selected span {
+.quiz-option.selected .mock-option-tag {
+  border-color: var(--accent-2);
+  color: var(--accent-2);
+  background: color-mix(in srgb, var(--card) 64%, var(--accent-2) 36%);
+}
+
+.quiz-option.selected .mock-option-tag + span {
   color: color-mix(in srgb, var(--ink) 62%, var(--accent-2) 38%);
   font-weight: 700;
 }

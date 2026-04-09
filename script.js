@@ -484,19 +484,129 @@ function isTrueFalseQuestion(item) {
   return /^true\s+or\s+false:/i.test(questionText) || /^(true|false)$/i.test(answerText);
 }
 
+function normalizeTokenSet(text) {
+  return new Set(
+    String(text)
+      .toLowerCase()
+      .replace(/[^a-z0-9()_]+/g, ' ')
+      .split(' ')
+      .map((token) => token.trim())
+      .filter((token) => token.length > 1)
+  );
+}
+
+function pickKeywordDistractors(correctAnswer) {
+  const keywordPool = [
+    'public', 'private', 'protected', 'static', 'final', 'class', 'interface', 'extends', 'implements',
+    'Scanner', 'PrintWriter', 'try', 'catch', 'finally', 'while', 'do-while', 'for', 'switch',
+    'Integer.parseInt()', 'equals()', 'compareTo()', 'HashMap', 'ArrayList', 'Set'
+  ];
+  return shuffleArray(keywordPool.filter((keyword) => keyword !== correctAnswer)).slice(0, 4);
+}
+
+function numericDistractors(correctAnswer) {
+  const n = Number(correctAnswer);
+  if (!Number.isFinite(n)) return [];
+  const values = new Set([n - 1, n + 1, n - 2, n + 2, n + 10, n - 10]);
+  values.delete(n);
+  return Array.from(values).map((value) => String(value));
+}
+
+function booleanDistractors(correctAnswer) {
+  const lowered = String(correctAnswer).toLowerCase();
+  if (lowered !== 'true' && lowered !== 'false') return [];
+  return lowered === 'true'
+    ? ['false', 'Compilation error', 'Runtime exception', 'No output']
+    : ['true', 'Compilation error', 'Runtime exception', 'No output'];
+}
+
+function syntaxDistractors(correctAnswer) {
+  const answer = String(correctAnswer);
+  if (!/[();={}\[\]]/.test(answer) && !/\b(public|private|class|new|int|String|char|void)\b/.test(answer)) {
+    return [];
+  }
+
+  const variants = new Set();
+
+  if (answer.includes('main')) {
+    variants.add('public void main(String[] args)');
+    variants.add('public static void Main(String[] args)');
+    variants.add('public static void main()');
+    variants.add('private static void main(String[] args)');
+  }
+
+  if (answer.includes('parseInt')) {
+    variants.add('String.toInt("123")');
+    variants.add('Integer.toString("123")');
+    variants.add('parseInteger("123")');
+    variants.add('convertToInt("123")');
+  }
+
+  if (answer.includes('arr') || answer.includes('int[') || answer.includes('new int')) {
+    variants.add('int arr = new int[5];');
+    variants.add('int arr = [5];');
+    variants.add('array<int> arr = new array<int>[5];');
+    variants.add('int arr(5);');
+  }
+
+  if (variants.size < 4) {
+    variants.add(`${answer};`);
+    variants.add(answer.replace(/;/g, ''));
+    variants.add(answer.replace(/public/g, 'private'));
+    variants.add(answer.replace(/static/g, ''));
+  }
+
+  return Array.from(variants).filter((variant) => variant !== answer);
+}
+
+function semanticDistractors(correctAnswer, pool) {
+  const correctTokens = normalizeTokenSet(correctAnswer);
+  return pool
+    .filter((answer) => answer !== correctAnswer)
+    .map((answer) => {
+      const tokens = normalizeTokenSet(answer);
+      let overlap = 0;
+      correctTokens.forEach((token) => {
+        if (tokens.has(token)) overlap += 1;
+      });
+      return { answer, overlap };
+    })
+    .filter((entry) => entry.overlap > 0)
+    .sort((a, b) => b.overlap - a.overlap)
+    .slice(0, 20)
+    .map((entry) => entry.answer);
+}
+
+function buildQuizOptions(item) {
+  if (isTrueFalseQuestion(item)) {
+    return shuffleArray(['True', 'False']);
+  }
+
+  const answerPool = Array.from(new Set(QUESTIONS.map((question) => question.a)));
+  const collected = new Set();
+
+  [
+    ...numericDistractors(item.a),
+    ...booleanDistractors(item.a),
+    ...syntaxDistractors(item.a),
+    ...semanticDistractors(item.a, answerPool),
+    ...pickKeywordDistractors(item.a)
+  ].forEach((option) => {
+    if (option && option !== item.a) {
+      collected.add(option);
+    }
+  });
+
+  const distractors = shuffleArray(Array.from(collected)).slice(0, 4);
+  return shuffleArray([item.a, ...distractors]);
+}
+
 function buildQuizQuestionView(item, displayNumber, totalQuestions) {
   const isLocked = currentQuiz && Array.isArray(currentQuiz.lockedAnswers)
     ? currentQuiz.lockedAnswers[currentQuiz.index] === true
     : false;
 
-  const isTrueFalse = isTrueFalseQuestion(item);
-
-  const options = isTrueFalse
-    ? shuffleArray(['True', 'False'])
-    : shuffleArray([
-        item.a,
-        ...shuffleArray(QUESTIONS.filter((q) => q.a !== item.a)).slice(0, 3).map((q) => q.a)
-      ]);
+  const options = buildQuizOptions(item);
 
   const optionMarkup = options
     .map((opt, idx) => {
@@ -505,6 +615,7 @@ function buildQuizQuestionView(item, displayNumber, totalQuestions) {
       return `
         <label class="quiz-option">
           <input type="radio" name="quizOption" value="${idx}" ${checked} ${disabled}>
+          <span class="mock-option-tag">${String.fromCharCode(65 + idx)}</span>
           <span>${opt}</span>
         </label>
       `;
